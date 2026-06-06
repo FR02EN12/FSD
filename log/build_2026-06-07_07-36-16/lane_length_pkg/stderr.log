@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/jhp/fsd_ws/build/lane_length_pkg/ament_cmake_python/lane_length_pkg/lane_length_pkg' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_lane_length_pkg.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_lane_length_pkg] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:150: CMakeFiles/ament_cmake_python_symlink_lane_length_pkg.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

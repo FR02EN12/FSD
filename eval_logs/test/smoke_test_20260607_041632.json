@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "trial_name": "smoke_test",
+  "started_at": "2026-06-07T04:16:32",
+  "finished_at": "2026-06-07T04:16:33",
+  "duration_sec": 1.008,
+  "samples": 20,
+  "ok_ratio": 0.0,
+  "valid_error_ratio": 0.0,
+  "valid_width_ratio": 0.0,
+  "moving_ratio": 0.0,
+  "narrow_width_threshold_m": 0.19,
+  "narrow_samples": 0,
+  "narrow_stop_samples": 0,
+  "narrow_stop_ratio": null,
+  "narrow_stop_ok": null,
+  "mean_abs_center_error_m": null,
+  "rmse_center_error_m": null,
+  "p95_abs_center_error_m": null,
+  "max_abs_center_error_m": null,
+  "mean_abs_heading_error_rad": null,
+  "goals": {
+    "ok_ratio": 0.9,
+    "valid_error_ratio": 0.9,
+    "mean_abs_center_error_m": 0.15,
+    "moving_ratio": 0.7,
+    "narrow_stop_ratio": 0.9
+  }
+}

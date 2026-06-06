@@ -1,0 +1,4 @@
+source;share/lane_length_pkg/environment/ament_prefix_path.sh
+source;share/lane_length_pkg/environment/library_path.sh
+source;share/lane_length_pkg/environment/path.sh
+source;share/lane_length_pkg/environment/pythonpath.sh

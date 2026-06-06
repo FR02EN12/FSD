@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+from lane_length_pkg.situation_fusion import main
+
+if __name__ == '__main__':
+    main()

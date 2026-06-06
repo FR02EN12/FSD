@@ -1,0 +1,797 @@
+[0.000000] (-) TimerEvent: {}
+[0.000332] (lane_length_pkg) JobQueued: {'identifier': 'lane_length_pkg', 'dependencies': OrderedDict()}
+[0.000431] (lane_length_pkg) JobStarted: {'identifier': 'lane_length_pkg'}
+[0.021658] (lane_length_pkg) JobProgress: {'identifier': 'lane_length_pkg', 'progress': 'cmake'}
+[0.023144] (lane_length_pkg) JobProgress: {'identifier': 'lane_length_pkg', 'progress': 'build'}
+[0.029773] (lane_length_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jhp/fsd_ws/build/lane_length_pkg', '--', '-j6', '-l6'], 'cwd': '/home/jhp/fsd_ws/build/lane_length_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('USER', 'jhp'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jhp/camera_calib_ws/install/stereo_image_proc/lib:/home/jhp/camera_calib_ws/install/image_proc/lib:/home/jhp/camera_calib_ws/install/tracetools_image_pipeline/lib:/home/jhp/camera_calib_ws/install/image_view/lib:/home/jhp/camera_calib_ws/install/image_rotate/lib:/home/jhp/camera_calib_ws/install/image_publisher/lib:/home/jhp/camera_calib_ws/install/depth_image_proc/lib:/home/jhp/turtlebot3_ws/install/coin_d4_driver/lib:/home/jhp/fsd_ws/install/lane_length_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jhp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '3096'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jhp/fsd2_ws/install:/home/jhp/camera_calib_ws/install:/home/jhp/fsd_ws/install:/home/jhp/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jhp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jhp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jhp/.codex/tmp/arg0/codex-arg0d3HFuX:/usr/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jhp/.local/bin:/home/jhp/.local/bin:/home/jhp/.local/bin:/home/jhp/camera_calib_ws/install/image_proc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2448,unix/ubuntu:/tmp/.ICE-unix/2448'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cfcad054_4f1a_4abe_b344_e91307dcaadb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jhp/fsd2_ws/install/bringup:/home/jhp/fsd2_ws/install/perception_py:/home/jhp/fsd2_ws/install/perception_cpp:/home/jhp/fsd2_ws/install/decision_py:/home/jhp/fsd2_ws/install/decision_cpp:/home/jhp/fsd2_ws/install/control_py:/home/jhp/fsd2_ws/install/control_cpp:/home/jhp/camera_calib_ws/install/image_pipeline:/home/jhp/camera_calib_ws/install/stereo_image_proc:/home/jhp/camera_calib_ws/install/image_proc:/home/jhp/camera_calib_ws/install/tracetools_image_pipeline:/home/jhp/camera_calib_ws/install/image_view:/home/jhp/camera_calib_ws/install/image_rotate:/home/jhp/camera_calib_ws/install/image_publisher:/home/jhp/camera_calib_ws/install/depth_image_proc:/home/jhp/camera_calib_ws/install/camera_calibration:/home/jhp/turtlebot3_ws/install/turtlebot3:/home/jhp/turtlebot3_ws/install/turtlebot3_teleop:/home/jhp/turtlebot3_ws/install/turtlebot3_bringup:/home/jhp/turtlebot3_ws/install/turtlebot3_node:/home/jhp/turtlebot3_ws/install/turtlebot3_navigation2:/home/jhp/turtlebot3_ws/install/turtlebot3_example:/home/jhp/turtlebot3_ws/install/turtlebot3_description:/home/jhp/turtlebot3_ws/install/turtlebot3_cartographer:/home/jhp/turtlebot3_ws/install/ld08_driver:/home/jhp/turtlebot3_ws/install/coin_d4_driver:/home/jhp/fsd_ws/install/lane_length_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e9dbc-8375-7903-bd45-6b9c93a49079'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jhp/fsd_ws/build/lane_length_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'C.UTF-8'), ('CODEX_MANAGED_PACKAGE_ROOT', '/usr/lib/node_modules/@openai/codex'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-03'), ('PYTHONPATH', '/home/jhp/fsd2_ws/install/perception_py/lib/python3.10/site-packages:/home/jhp/fsd2_ws/install/decision_py/lib/python3.10/site-packages:/home/jhp/fsd2_ws/install/control_py/lib/python3.10/site-packages:/home/jhp/camera_calib_ws/build/camera_calibration/src:/home/jhp/camera_calib_ws/install/camera_calibration/lib/python3.10/site-packages:/home/jhp/turtlebot3_ws/build/turtlebot3_teleop:/home/jhp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/jhp/turtlebot3_ws/build/turtlebot3_example:/home/jhp/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CODEX_MANAGED_BY_NPM', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jhp/fsd2_ws/install/bringup:/home/jhp/fsd2_ws/install/perception_cpp:/home/jhp/fsd2_ws/install/decision_cpp:/home/jhp/fsd2_ws/install/control_cpp:/home/jhp/camera_calib_ws/install/image_pipeline:/home/jhp/camera_calib_ws/install/stereo_image_proc:/home/jhp/camera_calib_ws/install/image_proc:/home/jhp/camera_calib_ws/install/tracetools_image_pipeline:/home/jhp/camera_calib_ws/install/image_view:/home/jhp/camera_calib_ws/install/image_rotate:/home/jhp/camera_calib_ws/install/image_publisher:/home/jhp/camera_calib_ws/install/depth_image_proc:/home/jhp/turtlebot3_ws/install/turtlebot3:/home/jhp/turtlebot3_ws/install/turtlebot3_bringup:/home/jhp/turtlebot3_ws/install/turtlebot3_node:/home/jhp/turtlebot3_ws/install/turtlebot3_navigation2:/home/jhp/turtlebot3_ws/install/turtlebot3_description:/home/jhp/turtlebot3_ws/install/turtlebot3_cartographer:/home/jhp/turtlebot3_ws/install/ld08_driver:/home/jhp/turtlebot3_ws/install/coin_d4_driver:/home/jhp/fsd_ws/install/lane_length_pkg:/home/jhp/fsd2_ws/install/perception_py:/home/jhp/fsd2_ws/install/decision_py:/home/jhp/fsd2_ws/install/control_py:/home/jhp/camera_calib_ws/install/camera_calibration:/home/jhp/turtlebot3_ws/install/turtlebot3_teleop:/home/jhp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.060168] (-) TimerEvent: {}
+[0.160543] (-) TimerEvent: {}
+[0.261565] (-) TimerEvent: {}
+[0.312281] (lane_length_pkg) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_lane_length_pkg\n'}
+[0.361728] (-) TimerEvent: {}
+[0.429711] (lane_length_pkg) StdoutLine: {'line': b'[ 25%] Built target coin_d4_driver_lib\n'}
+[0.461889] (-) TimerEvent: {}
+[0.563643] (-) TimerEvent: {}
+[0.664003] (-) TimerEvent: {}
+[0.767647] (-) TimerEvent: {}
+[0.868099] (-) TimerEvent: {}
+[0.968461] (-) TimerEvent: {}
+[1.068829] (-) TimerEvent: {}
+[1.169935] (-) TimerEvent: {}
+[1.198668] (lane_length_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.199404] (lane_length_pkg) StdoutLine: {'line': b'writing lane_length_pkg.egg-info/PKG-INFO\n'}
+[1.200626] (lane_length_pkg) StdoutLine: {'line': b'writing dependency_links to lane_length_pkg.egg-info/dependency_links.txt\n'}
+[1.201959] (lane_length_pkg) StdoutLine: {'line': b'writing top-level names to lane_length_pkg.egg-info/top_level.txt\n'}
+[1.209117] (lane_length_pkg) StdoutLine: {'line': b"reading manifest file 'lane_length_pkg.egg-info/SOURCES.txt'\n"}
+[1.210820] (lane_length_pkg) StdoutLine: {'line': b"writing manifest file 'lane_length_pkg.egg-info/SOURCES.txt'\n"}
+[1.270225] (-) TimerEvent: {}
+[1.333267] (lane_length_pkg) StdoutLine: {'line': b'[ 25%] Built target ament_cmake_python_build_lane_length_pkg_egg\n'}
+[1.370377] (-) TimerEvent: {}
+[1.445442] (lane_length_pkg) StdoutLine: {'line': b'[ 31%] Built target single_coin_d4_node\n'}
+[1.470531] (-) TimerEvent: {}
+[1.542885] (lane_length_pkg) StdoutLine: {'line': b'[ 50%] Built target ld08_driver\n'}
+[1.570678] (-) TimerEvent: {}
+[1.669973] (lane_length_pkg) StdoutLine: {'line': b'[ 87%] Built target turtlebot3_control_lib\n'}
+[1.670747] (-) TimerEvent: {}
+[1.764040] (lane_length_pkg) StdoutLine: {'line': b'[ 93%] Built target localization_slam\n'}
+[1.770917] (-) TimerEvent: {}
+[1.871418] (-) TimerEvent: {}
+[1.889969] (lane_length_pkg) StdoutLine: {'line': b'[100%] Built target turtlebot3_ros\n'}
+[1.971620] (-) TimerEvent: {}
+[2.071973] (-) TimerEvent: {}
+[2.172437] (-) TimerEvent: {}
+[2.272803] (-) TimerEvent: {}
+[2.373179] (-) TimerEvent: {}
+[2.473537] (-) TimerEvent: {}
+[2.573895] (-) TimerEvent: {}
+[2.674277] (-) TimerEvent: {}
+[2.774654] (-) TimerEvent: {}
+[2.874991] (-) TimerEvent: {}
+[2.975346] (-) TimerEvent: {}
+[3.076317] (-) TimerEvent: {}
+[3.176676] (-) TimerEvent: {}
+[3.277172] (-) TimerEvent: {}
+[3.378016] (-) TimerEvent: {}
+[3.478386] (-) TimerEvent: {}
+[3.578754] (-) TimerEvent: {}
+[3.679102] (-) TimerEvent: {}
+[3.779463] (-) TimerEvent: {}
+[3.879840] (-) TimerEvent: {}
+[3.980187] (-) TimerEvent: {}
+[4.080540] (-) TimerEvent: {}
+[4.180907] (-) TimerEvent: {}
+[4.281297] (-) TimerEvent: {}
+[4.382312] (-) TimerEvent: {}
+[4.482689] (-) TimerEvent: {}
+[4.583070] (-) TimerEvent: {}
+[4.683776] (-) TimerEvent: {}
+[4.784646] (-) TimerEvent: {}
+[4.885037] (-) TimerEvent: {}
+[4.985400] (-) TimerEvent: {}
+[5.085772] (-) TimerEvent: {}
+[5.187345] (-) TimerEvent: {}
+[5.287746] (-) TimerEvent: {}
+[5.388995] (-) TimerEvent: {}
+[5.489387] (-) TimerEvent: {}
+[5.589745] (-) TimerEvent: {}
+[5.690119] (-) TimerEvent: {}
+[5.790492] (-) TimerEvent: {}
+[5.890809] (-) TimerEvent: {}
+[5.991169] (-) TimerEvent: {}
+[6.091744] (-) TimerEvent: {}
+[6.192177] (-) TimerEvent: {}
+[6.292576] (-) TimerEvent: {}
+[6.392968] (-) TimerEvent: {}
+[6.493346] (-) TimerEvent: {}
+[6.593734] (-) TimerEvent: {}
+[6.694134] (-) TimerEvent: {}
+[6.794503] (-) TimerEvent: {}
+[6.896677] (-) TimerEvent: {}
+[6.997042] (-) TimerEvent: {}
+[7.099687] (-) TimerEvent: {}
+[7.200046] (-) TimerEvent: {}
+[7.301021] (-) TimerEvent: {}
+[7.401512] (-) TimerEvent: {}
+[7.501888] (-) TimerEvent: {}
+[7.603226] (-) TimerEvent: {}
+[7.703825] (-) TimerEvent: {}
+[7.804210] (-) TimerEvent: {}
+[7.904584] (-) TimerEvent: {}
+[8.005485] (-) TimerEvent: {}
+[8.105848] (-) TimerEvent: {}
+[8.206219] (-) TimerEvent: {}
+[8.306615] (-) TimerEvent: {}
+[8.407000] (-) TimerEvent: {}
+[8.507381] (-) TimerEvent: {}
+[8.607765] (-) TimerEvent: {}
+[8.708109] (-) TimerEvent: {}
+[8.808467] (-) TimerEvent: {}
+[8.908842] (-) TimerEvent: {}
+[9.009219] (-) TimerEvent: {}
+[9.109577] (-) TimerEvent: {}
+[9.209951] (-) TimerEvent: {}
+[9.310344] (-) TimerEvent: {}
+[9.410725] (-) TimerEvent: {}
+[9.511106] (-) TimerEvent: {}
+[9.611592] (-) TimerEvent: {}
+[9.711974] (-) TimerEvent: {}
+[9.812341] (-) TimerEvent: {}
+[9.912711] (-) TimerEvent: {}
+[10.014009] (-) TimerEvent: {}
+[10.114362] (-) TimerEvent: {}
+[10.214714] (-) TimerEvent: {}
+[10.315072] (-) TimerEvent: {}
+[10.415433] (-) TimerEvent: {}
+[10.515830] (-) TimerEvent: {}
+[10.616180] (-) TimerEvent: {}
+[10.716546] (-) TimerEvent: {}
+[10.816926] (-) TimerEvent: {}
+[10.917291] (-) TimerEvent: {}
+[11.017654] (-) TimerEvent: {}
+[11.118012] (-) TimerEvent: {}
+[11.218387] (-) TimerEvent: {}
+[11.318783] (-) TimerEvent: {}
+[11.419178] (-) TimerEvent: {}
+[11.519575] (-) TimerEvent: {}
+[11.619954] (-) TimerEvent: {}
+[11.720334] (-) TimerEvent: {}
+[11.820686] (-) TimerEvent: {}
+[11.921065] (-) TimerEvent: {}
+[12.021455] (-) TimerEvent: {}
+[12.121842] (-) TimerEvent: {}
+[12.222200] (-) TimerEvent: {}
+[12.322570] (-) TimerEvent: {}
+[12.422943] (-) TimerEvent: {}
+[12.523318] (-) TimerEvent: {}
+[12.623739] (-) TimerEvent: {}
+[12.726094] (-) TimerEvent: {}
+[12.830942] (-) TimerEvent: {}
+[12.931312] (-) TimerEvent: {}
+[13.031651] (-) TimerEvent: {}
+[13.132019] (-) TimerEvent: {}
+[13.233507] (-) TimerEvent: {}
+[13.334098] (-) TimerEvent: {}
+[13.434712] (-) TimerEvent: {}
+[13.535375] (-) TimerEvent: {}
+[13.635873] (-) TimerEvent: {}
+[13.737208] (-) TimerEvent: {}
+[13.838413] (-) TimerEvent: {}
+[13.939108] (-) TimerEvent: {}
+[14.039651] (-) TimerEvent: {}
+[14.140427] (-) TimerEvent: {}
+[14.240775] (-) TimerEvent: {}
+[14.343550] (-) TimerEvent: {}
+[14.443929] (-) TimerEvent: {}
+[14.544263] (-) TimerEvent: {}
+[14.644653] (-) TimerEvent: {}
+[14.745048] (-) TimerEvent: {}
+[14.845401] (-) TimerEvent: {}
+[14.948735] (-) TimerEvent: {}
+[15.049115] (-) TimerEvent: {}
+[15.149500] (-) TimerEvent: {}
+[15.249868] (-) TimerEvent: {}
+[15.350207] (-) TimerEvent: {}
+[15.450554] (-) TimerEvent: {}
+[15.550962] (-) TimerEvent: {}
+[15.651325] (-) TimerEvent: {}
+[15.753473] (-) TimerEvent: {}
+[15.853855] (-) TimerEvent: {}
+[15.954222] (-) TimerEvent: {}
+[16.054613] (-) TimerEvent: {}
+[16.155640] (-) TimerEvent: {}
+[16.256052] (-) TimerEvent: {}
+[16.356460] (-) TimerEvent: {}
+[16.456869] (-) TimerEvent: {}
+[16.557274] (-) TimerEvent: {}
+[16.657713] (-) TimerEvent: {}
+[16.758128] (-) TimerEvent: {}
+[16.858559] (-) TimerEvent: {}
+[16.958929] (-) TimerEvent: {}
+[17.059316] (-) TimerEvent: {}
+[17.159905] (-) TimerEvent: {}
+[17.260295] (-) TimerEvent: {}
+[17.362433] (-) TimerEvent: {}
+[17.463328] (-) TimerEvent: {}
+[17.564816] (-) TimerEvent: {}
+[17.665181] (-) TimerEvent: {}
+[17.765549] (-) TimerEvent: {}
+[17.865918] (-) TimerEvent: {}
+[17.966299] (-) TimerEvent: {}
+[18.066675] (-) TimerEvent: {}
+[18.171355] (-) TimerEvent: {}
+[18.271735] (-) TimerEvent: {}
+[18.372084] (-) TimerEvent: {}
+[18.472476] (-) TimerEvent: {}
+[18.574028] (-) TimerEvent: {}
+[18.674562] (-) TimerEvent: {}
+[18.774919] (-) TimerEvent: {}
+[18.875271] (-) TimerEvent: {}
+[18.975642] (-) TimerEvent: {}
+[19.076286] (-) TimerEvent: {}
+[19.176644] (-) TimerEvent: {}
+[19.277259] (-) TimerEvent: {}
+[19.377959] (-) TimerEvent: {}
+[19.481035] (-) TimerEvent: {}
+[19.581427] (-) TimerEvent: {}
+[19.681804] (-) TimerEvent: {}
+[19.782168] (-) TimerEvent: {}
+[19.882516] (-) TimerEvent: {}
+[19.982882] (-) TimerEvent: {}
+[20.083289] (-) TimerEvent: {}
+[20.183662] (-) TimerEvent: {}
+[20.284070] (-) TimerEvent: {}
+[20.384441] (-) TimerEvent: {}
+[20.484810] (-) TimerEvent: {}
+[20.585171] (-) TimerEvent: {}
+[20.685523] (-) TimerEvent: {}
+[20.785895] (-) TimerEvent: {}
+[20.886272] (-) TimerEvent: {}
+[20.986650] (-) TimerEvent: {}
+[21.087107] (-) TimerEvent: {}
+[21.187456] (-) TimerEvent: {}
+[21.288375] (-) TimerEvent: {}
+[21.388814] (-) TimerEvent: {}
+[21.489261] (-) TimerEvent: {}
+[21.589986] (-) TimerEvent: {}
+[21.690368] (-) TimerEvent: {}
+[21.790698] (-) TimerEvent: {}
+[21.891004] (-) TimerEvent: {}
+[21.991382] (-) TimerEvent: {}
+[22.092220] (-) TimerEvent: {}
+[22.192600] (-) TimerEvent: {}
+[22.295078] (-) TimerEvent: {}
+[22.395428] (-) TimerEvent: {}
+[22.495818] (-) TimerEvent: {}
+[22.596169] (-) TimerEvent: {}
+[22.696772] (-) TimerEvent: {}
+[22.797156] (-) TimerEvent: {}
+[22.901296] (-) TimerEvent: {}
+[23.001698] (-) TimerEvent: {}
+[23.102073] (-) TimerEvent: {}
+[23.202454] (-) TimerEvent: {}
+[23.303563] (-) TimerEvent: {}
+[23.403921] (-) TimerEvent: {}
+[23.505536] (-) TimerEvent: {}
+[23.607052] (-) TimerEvent: {}
+[23.707407] (-) TimerEvent: {}
+[23.808962] (-) TimerEvent: {}
+[23.911492] (-) TimerEvent: {}
+[24.011868] (-) TimerEvent: {}
+[24.112234] (-) TimerEvent: {}
+[24.212590] (-) TimerEvent: {}
+[24.312962] (-) TimerEvent: {}
+[24.413320] (-) TimerEvent: {}
+[24.513671] (-) TimerEvent: {}
+[24.614020] (-) TimerEvent: {}
+[24.714502] (-) TimerEvent: {}
+[24.814864] (-) TimerEvent: {}
+[24.915326] (-) TimerEvent: {}
+[25.015717] (-) TimerEvent: {}
+[25.116089] (-) TimerEvent: {}
+[25.216454] (-) TimerEvent: {}
+[25.316818] (-) TimerEvent: {}
+[25.417179] (-) TimerEvent: {}
+[25.520692] (-) TimerEvent: {}
+[25.621798] (-) TimerEvent: {}
+[25.722194] (-) TimerEvent: {}
+[25.822565] (-) TimerEvent: {}
+[25.922970] (-) TimerEvent: {}
+[26.024519] (-) TimerEvent: {}
+[26.124880] (-) TimerEvent: {}
+[26.225251] (-) TimerEvent: {}
+[26.325827] (-) TimerEvent: {}
+[26.426181] (-) TimerEvent: {}
+[26.526564] (-) TimerEvent: {}
+[26.631315] (-) TimerEvent: {}
+[26.731703] (-) TimerEvent: {}
+[26.832071] (-) TimerEvent: {}
+[26.932451] (-) TimerEvent: {}
+[27.033533] (-) TimerEvent: {}
+[27.133903] (-) TimerEvent: {}
+[27.236579] (-) TimerEvent: {}
+[27.336944] (-) TimerEvent: {}
+[27.437309] (-) TimerEvent: {}
+[27.537685] (-) TimerEvent: {}
+[27.638674] (-) TimerEvent: {}
+[27.739042] (-) TimerEvent: {}
+[27.839387] (-) TimerEvent: {}
+[27.942632] (-) TimerEvent: {}
+[28.042994] (-) TimerEvent: {}
+[28.143341] (-) TimerEvent: {}
+[28.243706] (-) TimerEvent: {}
+[28.344015] (-) TimerEvent: {}
+[28.446362] (-) TimerEvent: {}
+[28.546765] (-) TimerEvent: {}
+[28.647164] (-) TimerEvent: {}
+[28.749203] (-) TimerEvent: {}
+[28.849603] (-) TimerEvent: {}
+[28.949979] (-) TimerEvent: {}
+[29.050337] (-) TimerEvent: {}
+[29.150704] (-) TimerEvent: {}
+[29.251080] (-) TimerEvent: {}
+[29.351433] (-) TimerEvent: {}
+[29.451833] (-) TimerEvent: {}
+[29.552229] (-) TimerEvent: {}
+[29.653450] (-) TimerEvent: {}
+[29.753810] (-) TimerEvent: {}
+[29.854163] (-) TimerEvent: {}
+[29.955380] (-) TimerEvent: {}
+[29.989918] (lane_length_pkg) CommandEnded: {'returncode': 0}
+[29.991835] (lane_length_pkg) JobProgress: {'identifier': 'lane_length_pkg', 'progress': 'install'}
+[30.035063] (lane_length_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jhp/fsd_ws/build/lane_length_pkg'], 'cwd': '/home/jhp/fsd_ws/build/lane_length_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('USER', 'jhp'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jhp/camera_calib_ws/install/stereo_image_proc/lib:/home/jhp/camera_calib_ws/install/image_proc/lib:/home/jhp/camera_calib_ws/install/tracetools_image_pipeline/lib:/home/jhp/camera_calib_ws/install/image_view/lib:/home/jhp/camera_calib_ws/install/image_rotate/lib:/home/jhp/camera_calib_ws/install/image_publisher/lib:/home/jhp/camera_calib_ws/install/depth_image_proc/lib:/home/jhp/turtlebot3_ws/install/coin_d4_driver/lib:/home/jhp/fsd_ws/install/lane_length_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jhp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '3096'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jhp/fsd2_ws/install:/home/jhp/camera_calib_ws/install:/home/jhp/fsd_ws/install:/home/jhp/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jhp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jhp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jhp/.codex/tmp/arg0/codex-arg0d3HFuX:/usr/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jhp/.local/bin:/home/jhp/.local/bin:/home/jhp/.local/bin:/home/jhp/camera_calib_ws/install/image_proc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2448,unix/ubuntu:/tmp/.ICE-unix/2448'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cfcad054_4f1a_4abe_b344_e91307dcaadb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jhp/fsd2_ws/install/bringup:/home/jhp/fsd2_ws/install/perception_py:/home/jhp/fsd2_ws/install/perception_cpp:/home/jhp/fsd2_ws/install/decision_py:/home/jhp/fsd2_ws/install/decision_cpp:/home/jhp/fsd2_ws/install/control_py:/home/jhp/fsd2_ws/install/control_cpp:/home/jhp/camera_calib_ws/install/image_pipeline:/home/jhp/camera_calib_ws/install/stereo_image_proc:/home/jhp/camera_calib_ws/install/image_proc:/home/jhp/camera_calib_ws/install/tracetools_image_pipeline:/home/jhp/camera_calib_ws/install/image_view:/home/jhp/camera_calib_ws/install/image_rotate:/home/jhp/camera_calib_ws/install/image_publisher:/home/jhp/camera_calib_ws/install/depth_image_proc:/home/jhp/camera_calib_ws/install/camera_calibration:/home/jhp/turtlebot3_ws/install/turtlebot3:/home/jhp/turtlebot3_ws/install/turtlebot3_teleop:/home/jhp/turtlebot3_ws/install/turtlebot3_bringup:/home/jhp/turtlebot3_ws/install/turtlebot3_node:/home/jhp/turtlebot3_ws/install/turtlebot3_navigation2:/home/jhp/turtlebot3_ws/install/turtlebot3_example:/home/jhp/turtlebot3_ws/install/turtlebot3_description:/home/jhp/turtlebot3_ws/install/turtlebot3_cartographer:/home/jhp/turtlebot3_ws/install/ld08_driver:/home/jhp/turtlebot3_ws/install/coin_d4_driver:/home/jhp/fsd_ws/install/lane_length_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e9dbc-8375-7903-bd45-6b9c93a49079'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jhp/fsd_ws/build/lane_length_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'C.UTF-8'), ('CODEX_MANAGED_PACKAGE_ROOT', '/usr/lib/node_modules/@openai/codex'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-03'), ('PYTHONPATH', '/home/jhp/fsd2_ws/install/perception_py/lib/python3.10/site-packages:/home/jhp/fsd2_ws/install/decision_py/lib/python3.10/site-packages:/home/jhp/fsd2_ws/install/control_py/lib/python3.10/site-packages:/home/jhp/camera_calib_ws/build/camera_calibration/src:/home/jhp/camera_calib_ws/install/camera_calibration/lib/python3.10/site-packages:/home/jhp/turtlebot3_ws/build/turtlebot3_teleop:/home/jhp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/jhp/turtlebot3_ws/build/turtlebot3_example:/home/jhp/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CODEX_MANAGED_BY_NPM', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jhp/fsd2_ws/install/bringup:/home/jhp/fsd2_ws/install/perception_cpp:/home/jhp/fsd2_ws/install/decision_cpp:/home/jhp/fsd2_ws/install/control_cpp:/home/jhp/camera_calib_ws/install/image_pipeline:/home/jhp/camera_calib_ws/install/stereo_image_proc:/home/jhp/camera_calib_ws/install/image_proc:/home/jhp/camera_calib_ws/install/tracetools_image_pipeline:/home/jhp/camera_calib_ws/install/image_view:/home/jhp/camera_calib_ws/install/image_rotate:/home/jhp/camera_calib_ws/install/image_publisher:/home/jhp/camera_calib_ws/install/depth_image_proc:/home/jhp/turtlebot3_ws/install/turtlebot3:/home/jhp/turtlebot3_ws/install/turtlebot3_bringup:/home/jhp/turtlebot3_ws/install/turtlebot3_node:/home/jhp/turtlebot3_ws/install/turtlebot3_navigation2:/home/jhp/turtlebot3_ws/install/turtlebot3_description:/home/jhp/turtlebot3_ws/install/turtlebot3_cartographer:/home/jhp/turtlebot3_ws/install/ld08_driver:/home/jhp/turtlebot3_ws/install/coin_d4_driver:/home/jhp/fsd_ws/install/lane_length_pkg:/home/jhp/fsd2_ws/install/perception_py:/home/jhp/fsd2_ws/install/decision_py:/home/jhp/fsd2_ws/install/control_py:/home/jhp/camera_calib_ws/install/camera_calibration:/home/jhp/turtlebot3_ws/install/turtlebot3_teleop:/home/jhp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[30.055580] (-) TimerEvent: {}
+[30.060737] (lane_length_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.061106] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/pythonpath.sh\n'}
+[30.061261] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/pythonpath.dsv\n'}
+[30.061396] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info\n'}
+[30.061597] (lane_length_pkg) StdoutLine: {'line': b'-- Installing: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[30.064712] (lane_length_pkg) StdoutLine: {'line': b'-- Installing: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[30.066464] (lane_length_pkg) StdoutLine: {'line': b'-- Installing: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[30.066644] (lane_length_pkg) StdoutLine: {'line': b'-- Installing: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[30.067834] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg\n'}
+[30.068026] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/deadlock.py\n'}
+[30.068163] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_signal.py\n'}
+[30.068286] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/cooperation.py\n'}
+[30.068402] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_integration_node.py\n'}
+[30.068517] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/scene_fusion_node.py\n'}
+[30.068628] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_io.py\n'}
+[30.068790] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/safety_filter_node.py\n'}
+[30.068919] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_follow_control_node.py\n'}
+[30.069035] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/drive_mode_node.py\n'}
+[30.069146] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_viewer_node.py\n'}
+[30.069254] (lane_length_pkg) StdoutLine: {'line': b'-- Installing: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/behavior_plan_node.py\n'}
+[30.069363] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/object_detect.py\n'}
+[30.069471] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/__init__.py\n'}
+[30.069578] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_behavior.py\n'}
+[30.069685] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/path_track_node.py\n'}
+[30.069792] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/topic_watchdog.py\n'}
+[30.069898] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_detection_node.py\n'}
+[30.070004] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/cmd_mux_node.py\n'}
+[30.070145] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/space_memory.py\n'}
+[30.070289] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/camera_driver.py\n'}
+[30.070401] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/reverse_astar_planner_node.py\n'}
+[30.070509] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_decision_node.py\n'}
+[30.070617] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/situation_fusion.py\n'}
+[30.156008] (-) TimerEvent: {}
+[30.196847] (lane_length_pkg) StdoutLine: {'line': b"Listing '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg'...\n"}
+[30.197304] (lane_length_pkg) StdoutLine: {'line': b"Compiling '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/behavior_plan_node.py'...\n"}
+[30.236910] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/detection_node\n'}
+[30.237351] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/integration_node\n'}
+[30.237714] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/control_node\n'}
+[30.237904] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/decision_node\n'}
+[30.238039] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/viewer_node\n'}
+[30.238157] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_detection_node\n'}
+[30.238275] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_integration_node\n'}
+[30.238390] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_decision_node\n'}
+[30.238503] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_follow_control_node\n'}
+[30.238614] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_viewer_node\n'}
+[30.238722] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/scene_fusion_node\n'}
+[30.238830] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/drive_mode_node\n'}
+[30.238938] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/behavior_plan_node\n'}
+[30.239044] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/reverse_astar_planner_node\n'}
+[30.239150] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/path_track_node\n'}
+[30.239302] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/cmd_mux_node\n'}
+[30.239420] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/safety_filter_node\n'}
+[30.239565] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/camera_driver\n'}
+[30.239966] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/object_detect\n'}
+[30.240107] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/led_signal\n'}
+[30.240226] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/space_memory\n'}
+[30.240562] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/situation_fusion\n'}
+[30.240690] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/deadlock\n'}
+[30.240804] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/cooperation\n'}
+[30.240915] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/topic_watchdog\n'}
+[30.241022] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/led_behavior\n'}
+[30.241128] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/led_io\n'}
+[30.241236] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/localization_slam\n'}
+[30.241341] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/turtlebot3_ros\n'}
+[30.241447] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/ld08_driver\n'}
+[30.241552] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/single_coin_d4_node\n'}
+[30.241659] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/libturtlebot3_control_lib.a\n'}
+[30.241959] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/lib/libcoin_d4_driver_lib.so\n'}
+[30.242090] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config\n'}
+[30.242424] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/Screenshot from 2026-06-06 15-13-43.png\n'}
+[30.242586] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/default_cam.yaml\n'}
+[30.242900] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/Screenshot from 2026-06-06 15-24-55.png\n'}
+[30.243540] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/Screenshot from 2026-06-07 01-25-02.png\n'}
+[30.243873] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/Hinv.npy\n'}
+[30.244015] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/H.npy\n'}
+[30.244151] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/fisheye.yaml\n'}
+[30.244440] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/launch\n'}
+[30.244599] (lane_length_pkg) StdoutLine: {'line': b'-- Installing: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/launch/lane_pipeline.launch.py\n'}
+[30.244912] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/launch/__pycache__\n'}
+[30.245256] (lane_length_pkg) StdoutLine: {'line': b'-- Installing: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/launch/__pycache__/lane_pipeline.launch.cpython-310.pyc\n'}
+[30.245798] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description\n'}
+[30.246106] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf\n'}
+[30.246414] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf/turtlebot3_burger.urdf\n'}
+[30.246738] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf/turtlebot3_waffle_pi.urdf\n'}
+[30.248744] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf/common_properties.urdf\n'}
+[30.249438] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf/turtlebot3_waffle.urdf\n'}
+[30.249634] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes\n'}
+[30.252113] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors\n'}
+[30.254433] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/r200.dae\n'}
+[30.261693] (-) TimerEvent: {}
+[30.261899] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/astra.dae\n'}
+[30.262606] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/r200.jpg\n'}
+[30.262912] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/astra.jpg\n'}
+[30.263183] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/lds.stl\n'}
+[30.263462] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases\n'}
+[30.263767] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases/waffle_base.stl\n'}
+[30.264091] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases/burger_base.stl\n'}
+[30.264365] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases/waffle_pi_base.stl\n'}
+[30.264510] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/wheels\n'}
+[30.266613] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/wheels/right_tire.stl\n'}
+[30.267139] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/wheels/left_tire.stl\n'}
+[30.267455] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/rviz\n'}
+[30.267809] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/rviz/model.rviz\n'}
+[30.268253] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/param\n'}
+[30.268411] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/param/waffle.yaml\n'}
+[30.268581] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/param/burger.yaml\n'}
+[30.268700] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/param/waffle_pi.yaml\n'}
+[30.268814] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/rviz\n'}
+[30.268925] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/rviz/lane_pipeline.rviz\n'}
+[30.269035] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/drivers/ld08_driver/launch\n'}
+[30.269143] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/drivers/ld08_driver/launch/ld08.launch.py\n'}
+[30.269479] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/drivers/coin_d4_driver/launch\n'}
+[30.269632] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/drivers/coin_d4_driver/launch/single_lidar_node.launch.py\n'}
+[30.270054] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/drivers/coin_d4_driver/params\n'}
+[30.270199] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/drivers/coin_d4_driver/params/single_lidar_node.yaml\n'}
+[30.270320] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include\n'}
+[30.270435] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node\n'}
+[30.270545] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors\n'}
+[30.270670] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/sensor_state.hpp\n'}
+[30.270779] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/battery_state.hpp\n'}
+[30.270887] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/imu.hpp\n'}
+[30.271018] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/sensors.hpp\n'}
+[30.271578] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/joint_state.hpp\n'}
+[30.273636] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/control_table.hpp\n'}
+[30.273863] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices\n'}
+[30.273991] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices/reset.hpp\n'}
+[30.274106] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices/motor_power.hpp\n'}
+[30.274219] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices/devices.hpp\n'}
+[30.274331] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices/sound.hpp\n'}
+[30.274441] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/odometry.hpp\n'}
+[30.274551] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/dynamixel_sdk_wrapper.hpp\n'}
+[30.274677] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/diff_drive_controller.hpp\n'}
+[30.274786] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/twist_publisher.hpp\n'}
+[30.274895] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/turtlebot3.hpp\n'}
+[30.275003] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/twist_subscriber.hpp\n'}
+[30.275111] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include\n'}
+[30.279079] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver\n'}
+[30.279301] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/coin_d4_node_handler.hpp\n'}
+[30.279444] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/single_coin_d4_node.hpp\n'}
+[30.279613] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/coin_d4_base_handler.hpp\n'}
+[30.279736] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk\n'}
+[30.279852] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/mtime.hpp\n'}
+[30.279964] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/handling_info.hpp\n'}
+[30.280073] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/lidar_data_processor.hpp\n'}
+[30.280184] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/timer.hpp\n'}
+[30.280290] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/lidar_information.hpp\n'}
+[30.280399] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/serial_port.hpp\n'}
+[30.280507] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/locker.hpp\n'}
+[30.280626] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/coin_d4_lifecycle_handler.hpp\n'}
+[30.280739] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include\n'}
+[30.280848] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/cmd_interface_linux.hpp\n'}
+[30.280957] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/transform.hpp\n'}
+[30.281123] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/slbf.hpp\n'}
+[30.281237] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/lipkg.hpp\n'}
+[30.281347] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/include/pointdata.hpp\n'}
+[30.281455] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/library_path.sh\n'}
+[30.281562] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/library_path.dsv\n'}
+[30.281667] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/ament_index/resource_index/package_run_dependencies/lane_length_pkg\n'}
+[30.281791] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/ament_index/resource_index/parent_prefix_path/lane_length_pkg\n'}
+[30.281900] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/ament_prefix_path.sh\n'}
+[30.282008] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/ament_prefix_path.dsv\n'}
+[30.282114] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/path.sh\n'}
+[30.282232] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/path.dsv\n'}
+[30.282344] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/local_setup.bash\n'}
+[30.282450] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/local_setup.sh\n'}
+[30.282556] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/local_setup.zsh\n'}
+[30.282662] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/local_setup.dsv\n'}
+[30.282768] (lane_length_pkg) StdoutLine: {'line': b'-- Installing: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/package.dsv\n'}
+[30.282874] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/ament_index/resource_index/packages/lane_length_pkg\n'}
+[30.282980] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.283086] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.283193] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.283298] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/lane_length_pkgConfig.cmake\n'}
+[30.283403] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/lane_length_pkgConfig-version.cmake\n'}
+[30.283530] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/package.xml\n'}
+[30.361863] (-) TimerEvent: {}
+[30.462222] (-) TimerEvent: {}
+[30.562577] (-) TimerEvent: {}
+[30.662938] (-) TimerEvent: {}
+[30.763304] (-) TimerEvent: {}
+[30.863632] (-) TimerEvent: {}
+[30.964024] (-) TimerEvent: {}
+[31.064391] (-) TimerEvent: {}
+[31.167040] (-) TimerEvent: {}
+[31.267428] (-) TimerEvent: {}
+[31.367806] (-) TimerEvent: {}
+[31.468199] (-) TimerEvent: {}
+[31.568581] (-) TimerEvent: {}
+[31.668964] (-) TimerEvent: {}
+[31.769370] (-) TimerEvent: {}
+[31.869807] (-) TimerEvent: {}
+[31.970321] (-) TimerEvent: {}
+[32.070779] (-) TimerEvent: {}
+[32.171129] (-) TimerEvent: {}
+[32.272103] (-) TimerEvent: {}
+[32.372574] (-) TimerEvent: {}
+[32.473036] (-) TimerEvent: {}
+[32.573561] (-) TimerEvent: {}
+[32.673945] (-) TimerEvent: {}
+[32.774292] (-) TimerEvent: {}
+[32.874656] (-) TimerEvent: {}
+[32.975125] (-) TimerEvent: {}
+[33.075489] (-) TimerEvent: {}
+[33.176022] (-) TimerEvent: {}
+[33.276347] (-) TimerEvent: {}
+[33.376715] (-) TimerEvent: {}
+[33.477067] (-) TimerEvent: {}
+[33.577431] (-) TimerEvent: {}
+[33.677873] (-) TimerEvent: {}
+[33.778223] (-) TimerEvent: {}
+[33.878580] (-) TimerEvent: {}
+[33.978927] (-) TimerEvent: {}
+[34.079285] (-) TimerEvent: {}
+[34.179635] (-) TimerEvent: {}
+[34.280062] (-) TimerEvent: {}
+[34.380437] (-) TimerEvent: {}
+[34.480815] (-) TimerEvent: {}
+[34.581209] (-) TimerEvent: {}
+[34.681902] (-) TimerEvent: {}
+[34.782258] (-) TimerEvent: {}
+[34.882634] (-) TimerEvent: {}
+[34.983160] (-) TimerEvent: {}
+[35.083569] (-) TimerEvent: {}
+[35.183965] (-) TimerEvent: {}
+[35.284433] (-) TimerEvent: {}
+[35.384803] (-) TimerEvent: {}
+[35.485148] (-) TimerEvent: {}
+[35.590227] (-) TimerEvent: {}
+[35.690638] (-) TimerEvent: {}
+[35.791017] (-) TimerEvent: {}
+[35.891350] (-) TimerEvent: {}
+[35.991758] (-) TimerEvent: {}
+[36.092129] (-) TimerEvent: {}
+[36.192509] (-) TimerEvent: {}
+[36.292879] (-) TimerEvent: {}
+[36.393251] (-) TimerEvent: {}
+[36.493628] (-) TimerEvent: {}
+[36.593988] (-) TimerEvent: {}
+[36.696308] (-) TimerEvent: {}
+[36.796663] (-) TimerEvent: {}
+[36.897031] (-) TimerEvent: {}
+[36.997437] (-) TimerEvent: {}
+[37.098102] (-) TimerEvent: {}
+[37.198467] (-) TimerEvent: {}
+[37.298955] (-) TimerEvent: {}
+[37.399428] (-) TimerEvent: {}
+[37.499860] (-) TimerEvent: {}
+[37.600230] (-) TimerEvent: {}
+[37.700594] (-) TimerEvent: {}
+[37.801012] (-) TimerEvent: {}
+[37.901369] (-) TimerEvent: {}
+[38.001732] (-) TimerEvent: {}
+[38.104327] (-) TimerEvent: {}
+[38.204675] (-) TimerEvent: {}
+[38.305041] (-) TimerEvent: {}
+[38.405410] (-) TimerEvent: {}
+[38.505758] (-) TimerEvent: {}
+[38.606110] (-) TimerEvent: {}
+[38.706467] (-) TimerEvent: {}
+[38.806830] (-) TimerEvent: {}
+[38.907214] (-) TimerEvent: {}
+[39.007621] (-) TimerEvent: {}
+[39.107973] (-) TimerEvent: {}
+[39.208339] (-) TimerEvent: {}
+[39.311229] (-) TimerEvent: {}
+[39.411618] (-) TimerEvent: {}
+[39.511996] (-) TimerEvent: {}
+[39.612351] (-) TimerEvent: {}
+[39.712779] (-) TimerEvent: {}
+[39.813128] (-) TimerEvent: {}
+[39.913494] (-) TimerEvent: {}
+[40.013853] (-) TimerEvent: {}
+[40.114217] (-) TimerEvent: {}
+[40.214549] (-) TimerEvent: {}
+[40.314906] (-) TimerEvent: {}
+[40.415253] (-) TimerEvent: {}
+[40.515624] (-) TimerEvent: {}
+[40.615987] (-) TimerEvent: {}
+[40.716382] (-) TimerEvent: {}
+[40.816745] (-) TimerEvent: {}
+[40.917101] (-) TimerEvent: {}
+[41.017459] (-) TimerEvent: {}
+[41.117827] (-) TimerEvent: {}
+[41.218181] (-) TimerEvent: {}
+[41.318547] (-) TimerEvent: {}
+[41.419063] (-) TimerEvent: {}
+[41.519447] (-) TimerEvent: {}
+[41.619837] (-) TimerEvent: {}
+[41.720238] (-) TimerEvent: {}
+[41.821133] (-) TimerEvent: {}
+[41.921500] (-) TimerEvent: {}
+[42.021850] (-) TimerEvent: {}
+[42.122256] (-) TimerEvent: {}
+[42.222661] (-) TimerEvent: {}
+[42.323041] (-) TimerEvent: {}
+[42.423412] (-) TimerEvent: {}
+[42.523800] (-) TimerEvent: {}
+[42.624150] (-) TimerEvent: {}
+[42.724696] (-) TimerEvent: {}
+[42.825057] (-) TimerEvent: {}
+[42.925571] (-) TimerEvent: {}
+[43.026423] (-) TimerEvent: {}
+[43.126898] (-) TimerEvent: {}
+[43.227241] (-) TimerEvent: {}
+[43.327623] (-) TimerEvent: {}
+[43.429886] (-) TimerEvent: {}
+[43.530257] (-) TimerEvent: {}
+[43.630640] (-) TimerEvent: {}
+[43.731033] (-) TimerEvent: {}
+[43.831390] (-) TimerEvent: {}
+[43.931781] (-) TimerEvent: {}
+[44.032447] (-) TimerEvent: {}
+[44.132812] (-) TimerEvent: {}
+[44.233174] (-) TimerEvent: {}
+[44.333551] (-) TimerEvent: {}
+[44.433931] (-) TimerEvent: {}
+[44.534289] (-) TimerEvent: {}
+[44.634651] (-) TimerEvent: {}
+[44.735018] (-) TimerEvent: {}
+[44.835389] (-) TimerEvent: {}
+[44.935900] (-) TimerEvent: {}
+[45.036345] (-) TimerEvent: {}
+[45.136719] (-) TimerEvent: {}
+[45.237190] (-) TimerEvent: {}
+[45.337569] (-) TimerEvent: {}
+[45.437966] (-) TimerEvent: {}
+[45.538340] (-) TimerEvent: {}
+[45.639885] (-) TimerEvent: {}
+[45.740238] (-) TimerEvent: {}
+[45.840636] (-) TimerEvent: {}
+[45.941277] (-) TimerEvent: {}
+[46.041624] (-) TimerEvent: {}
+[46.141969] (-) TimerEvent: {}
+[46.242315] (-) TimerEvent: {}
+[46.342693] (-) TimerEvent: {}
+[46.442997] (-) TimerEvent: {}
+[46.543372] (-) TimerEvent: {}
+[46.643734] (-) TimerEvent: {}
+[46.745658] (-) TimerEvent: {}
+[46.846022] (-) TimerEvent: {}
+[46.946376] (-) TimerEvent: {}
+[47.046731] (-) TimerEvent: {}
+[47.147106] (-) TimerEvent: {}
+[47.247462] (-) TimerEvent: {}
+[47.347870] (-) TimerEvent: {}
+[47.448251] (-) TimerEvent: {}
+[47.548612] (-) TimerEvent: {}
+[47.649014] (-) TimerEvent: {}
+[47.749772] (-) TimerEvent: {}
+[47.850138] (-) TimerEvent: {}
+[47.950509] (-) TimerEvent: {}
+[48.050890] (-) TimerEvent: {}
+[48.151777] (-) TimerEvent: {}
+[48.252141] (-) TimerEvent: {}
+[48.354776] (-) TimerEvent: {}
+[48.455148] (-) TimerEvent: {}
+[48.555597] (-) TimerEvent: {}
+[48.656006] (-) TimerEvent: {}
+[48.756591] (-) TimerEvent: {}
+[48.856985] (-) TimerEvent: {}
+[48.957371] (-) TimerEvent: {}
+[49.057759] (-) TimerEvent: {}
+[49.158138] (-) TimerEvent: {}
+[49.261424] (-) TimerEvent: {}
+[49.362973] (-) TimerEvent: {}
+[49.463339] (-) TimerEvent: {}
+[49.563715] (-) TimerEvent: {}
+[49.664071] (-) TimerEvent: {}
+[49.764464] (-) TimerEvent: {}
+[49.864871] (-) TimerEvent: {}
+[49.965253] (-) TimerEvent: {}
+[50.065630] (-) TimerEvent: {}
+[50.166008] (-) TimerEvent: {}
+[50.266378] (-) TimerEvent: {}
+[50.366760] (-) TimerEvent: {}
+[50.467110] (-) TimerEvent: {}
+[50.567473] (-) TimerEvent: {}
+[50.667871] (-) TimerEvent: {}
+[50.770912] (-) TimerEvent: {}
+[50.871269] (-) TimerEvent: {}
+[50.971642] (-) TimerEvent: {}
+[51.072026] (-) TimerEvent: {}
+[51.172411] (-) TimerEvent: {}
+[51.272782] (-) TimerEvent: {}
+[51.374601] (-) TimerEvent: {}
+[51.474969] (-) TimerEvent: {}
+[51.575336] (-) TimerEvent: {}
+[51.675807] (-) TimerEvent: {}
+[51.777765] (-) TimerEvent: {}
+[51.878121] (-) TimerEvent: {}
+[51.978475] (-) TimerEvent: {}
+[52.078824] (-) TimerEvent: {}
+[52.179934] (-) TimerEvent: {}
+[52.280266] (-) TimerEvent: {}
+[52.380630] (-) TimerEvent: {}
+[52.480985] (-) TimerEvent: {}
+[52.581343] (-) TimerEvent: {}
+[52.681722] (-) TimerEvent: {}
+[52.782096] (-) TimerEvent: {}
+[52.882457] (-) TimerEvent: {}
+[52.982839] (-) TimerEvent: {}
+[53.083226] (-) TimerEvent: {}
+[53.186723] (-) TimerEvent: {}
+[53.287256] (-) TimerEvent: {}
+[53.387649] (-) TimerEvent: {}
+[53.488013] (-) TimerEvent: {}
+[53.588398] (-) TimerEvent: {}
+[53.688799] (-) TimerEvent: {}
+[53.789300] (-) TimerEvent: {}
+[53.889672] (-) TimerEvent: {}
+[53.990032] (-) TimerEvent: {}
+[54.090450] (-) TimerEvent: {}
+[54.190806] (-) TimerEvent: {}
+[54.291188] (-) TimerEvent: {}
+[54.391605] (-) TimerEvent: {}
+[54.491948] (-) TimerEvent: {}
+[54.592496] (-) TimerEvent: {}
+[54.693006] (-) TimerEvent: {}
+[54.793388] (-) TimerEvent: {}
+[54.893761] (-) TimerEvent: {}
+[54.994170] (-) TimerEvent: {}
+[55.094636] (-) TimerEvent: {}
+[55.195033] (-) TimerEvent: {}
+[55.295540] (-) TimerEvent: {}
+[55.395915] (-) TimerEvent: {}
+[55.496281] (-) TimerEvent: {}
+[55.596648] (-) TimerEvent: {}
+[55.697015] (-) TimerEvent: {}
+[55.797418] (-) TimerEvent: {}
+[55.898976] (-) TimerEvent: {}
+[55.999769] (-) TimerEvent: {}
+[56.100179] (-) TimerEvent: {}
+[56.200529] (-) TimerEvent: {}
+[56.300889] (-) TimerEvent: {}
+[56.401244] (-) TimerEvent: {}
+[56.501599] (-) TimerEvent: {}
+[56.601958] (-) TimerEvent: {}
+[56.702362] (-) TimerEvent: {}
+[56.802739] (-) TimerEvent: {}
+[56.903117] (-) TimerEvent: {}
+[57.003481] (-) TimerEvent: {}
+[57.103852] (-) TimerEvent: {}
+[57.204209] (-) TimerEvent: {}
+[57.304576] (-) TimerEvent: {}
+[57.404934] (-) TimerEvent: {}
+[57.505328] (-) TimerEvent: {}
+[57.605695] (-) TimerEvent: {}
+[57.706054] (-) TimerEvent: {}
+[57.806678] (-) TimerEvent: {}
+[57.907030] (-) TimerEvent: {}
+[58.007381] (-) TimerEvent: {}
+[58.107755] (-) TimerEvent: {}
+[58.208126] (-) TimerEvent: {}
+[58.308482] (-) TimerEvent: {}
+[58.408833] (-) TimerEvent: {}
+[58.511785] (-) TimerEvent: {}
+[58.612140] (-) TimerEvent: {}
+[58.712484] (-) TimerEvent: {}
+[58.812861] (-) TimerEvent: {}
+[58.913222] (-) TimerEvent: {}
+[59.013834] (-) TimerEvent: {}
+[59.114172] (-) TimerEvent: {}
+[59.214551] (-) TimerEvent: {}
+[59.314929] (-) TimerEvent: {}
+[59.415301] (-) TimerEvent: {}
+[59.515687] (-) TimerEvent: {}
+[59.616059] (-) TimerEvent: {}
+[59.716438] (-) TimerEvent: {}
+[59.816795] (-) TimerEvent: {}
+[59.917231] (-) TimerEvent: {}
+[60.017706] (-) TimerEvent: {}
+[60.018977] (lane_length_pkg) CommandEnded: {'returncode': 0}
+[60.119439] (-) TimerEvent: {}
+[60.136695] (lane_length_pkg) JobEnded: {'identifier': 'lane_length_pkg', 'rc': 0}
+[60.141012] (-) EventReactorShutdown: {}

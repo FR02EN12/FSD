@@ -1,0 +1,214 @@
+[0.026s] Invoking command in '/home/jhp/fsd_ws/build/lane_length_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhp/fsd2_ws/install/perception_py:/home/jhp/fsd2_ws/install/decision_py:/home/jhp/fsd2_ws/install/control_py:/home/jhp/camera_calib_ws/install/camera_calibration:/home/jhp/turtlebot3_ws/install/turtlebot3_teleop:/home/jhp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/jhp/fsd_ws/src/lane_length_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhp/fsd_ws/install/lane_length_pkg
+[0.051s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.334s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.348s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.402s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.406s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.417s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.461s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.522s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.526s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.739s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.829s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.860s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.883s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.913s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.943s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.978s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[0.994s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[1.001s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.145s] -- Found dynamixel_sdk: 4.0.3 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[1.148s] -- Found turtlebot3_msgs: 2.4.0 (/opt/ros/humble/share/turtlebot3_msgs/cmake)
+[1.543s] -- Configuring done
+[1.614s] -- Generating done
+[1.639s] -- Build files have been written to: /home/jhp/fsd_ws/build/lane_length_pkg
+[1.665s] Invoked command in '/home/jhp/fsd_ws/build/lane_length_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhp/fsd2_ws/install/perception_py:/home/jhp/fsd2_ws/install/decision_py:/home/jhp/fsd2_ws/install/control_py:/home/jhp/camera_calib_ws/install/camera_calibration:/home/jhp/turtlebot3_ws/install/turtlebot3_teleop:/home/jhp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/jhp/fsd_ws/src/lane_length_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhp/fsd_ws/install/lane_length_pkg
+[1.668s] Invoking command in '/home/jhp/fsd_ws/build/lane_length_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhp/fsd2_ws/install/perception_py:/home/jhp/fsd2_ws/install/decision_py:/home/jhp/fsd2_ws/install/control_py:/home/jhp/camera_calib_ws/install/camera_calibration:/home/jhp/turtlebot3_ws/install/turtlebot3_teleop:/home/jhp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/jhp/fsd_ws/build/lane_length_pkg -- -j6 -l6
+[1.781s] Consolidate compiler generated dependencies of target localization_slam
+[1.800s] Consolidate compiler generated dependencies of target ld08_driver
+[1.808s] Consolidate compiler generated dependencies of target coin_d4_driver_lib
+[1.812s] [  6%] Built target localization_slam
+[1.812s] [  6%] Built target ament_cmake_python_symlink_lane_length_pkg
+[1.831s] Consolidate compiler generated dependencies of target turtlebot3_control_lib
+[1.832s] [ 25%] Built target ld08_driver
+[1.850s] [ 50%] Built target coin_d4_driver_lib
+[1.873s] [ 87%] Built target turtlebot3_control_lib
+[1.882s] Consolidate compiler generated dependencies of target single_coin_d4_node
+[1.907s] Consolidate compiler generated dependencies of target turtlebot3_ros
+[1.913s] [ 90%] Linking CXX executable single_coin_d4_node
+[1.941s] [ 93%] Linking CXX executable turtlebot3_ros
+[2.184s] [ 96%] Built target single_coin_d4_node
+[2.435s] running egg_info
+[2.437s] writing lane_length_pkg.egg-info/PKG-INFO
+[2.437s] writing dependency_links to lane_length_pkg.egg-info/dependency_links.txt
+[2.438s] writing top-level names to lane_length_pkg.egg-info/top_level.txt
+[2.444s] reading manifest file 'lane_length_pkg.egg-info/SOURCES.txt'
+[2.446s] writing manifest file 'lane_length_pkg.egg-info/SOURCES.txt'
+[2.520s] [ 96%] Built target ament_cmake_python_build_lane_length_pkg_egg
+[2.741s] [100%] Built target turtlebot3_ros
+[2.764s] Invoked command in '/home/jhp/fsd_ws/build/lane_length_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhp/fsd2_ws/install/perception_py:/home/jhp/fsd2_ws/install/decision_py:/home/jhp/fsd2_ws/install/control_py:/home/jhp/camera_calib_ws/install/camera_calibration:/home/jhp/turtlebot3_ws/install/turtlebot3_teleop:/home/jhp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/jhp/fsd_ws/build/lane_length_pkg -- -j6 -l6
+[2.785s] Invoking command in '/home/jhp/fsd_ws/build/lane_length_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhp/fsd2_ws/install/perception_py:/home/jhp/fsd2_ws/install/decision_py:/home/jhp/fsd2_ws/install/control_py:/home/jhp/camera_calib_ws/install/camera_calibration:/home/jhp/turtlebot3_ws/install/turtlebot3_teleop:/home/jhp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/jhp/fsd_ws/build/lane_length_pkg
+[2.801s] -- Install configuration: ""
+[2.801s] -- Execute custom install script
+[2.802s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/pythonpath.sh
+[2.820s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/pythonpath.dsv
+[2.841s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[2.860s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.879s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.898s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[2.918s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/__init__.py
+[2.938s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/behavior_plan_node.py
+[2.957s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/camera_driver.py
+[2.975s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/cmd_mux_node.py
+[2.995s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/cooperation.py
+[3.012s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/deadlock.py
+[3.032s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/drive_mode_node.py
+[3.050s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_decision_node.py
+[3.066s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_detection_node.py
+[3.084s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_follow_control_node.py
+[3.101s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_follow_eval_node.py
+[3.119s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_integration_node.py
+[3.137s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_viewer_node.py
+[3.154s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_behavior.py
+[3.171s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_io.py
+[3.189s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_signal.py
+[3.206s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/object_detect.py
+[3.223s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/path_track_node.py
+[3.243s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/reverse_astar_planner_node.py
+[3.262s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/safety_filter_node.py
+[3.279s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/scene_fusion_node.py
+[3.297s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/situation_fusion.py
+[3.314s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/space_memory.py
+[3.332s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/topic_watchdog.py
+[3.349s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/detection_node
+[3.367s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/integration_node
+[3.384s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/control_node
+[3.401s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/decision_node
+[3.419s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/viewer_node
+[3.437s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_detection_node
+[3.454s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_integration_node
+[3.471s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_decision_node
+[3.489s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_follow_control_node
+[3.507s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_viewer_node
+[3.528s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/scene_fusion_node
+[3.546s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/drive_mode_node
+[3.564s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/behavior_plan_node
+[3.584s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/reverse_astar_planner_node
+[3.604s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/path_track_node
+[3.621s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_follow_eval
+[3.642s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/cmd_mux_node
+[3.662s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/safety_filter_node
+[3.680s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/camera_driver
+[3.700s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/object_detect
+[3.718s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/led_signal
+[3.740s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/space_memory
+[3.759s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/situation_fusion
+[3.778s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/deadlock
+[3.796s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/cooperation
+[3.813s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/topic_watchdog
+[3.833s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/led_behavior
+[3.852s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/led_io
+[3.870s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/localization_slam
+[3.890s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/turtlebot3_ros
+[3.907s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/ld08_driver
+[3.927s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/single_coin_d4_node
+[3.946s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/libturtlebot3_control_lib.a
+[3.965s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/lib/libcoin_d4_driver_lib.so
+[3.984s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/H.npy
+[4.001s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/Hinv.npy
+[4.019s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/Screenshot from 2026-06-06 15-13-43.png
+[4.036s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/Screenshot from 2026-06-06 15-24-55.png
+[4.054s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/Screenshot from 2026-06-07 01-25-02.png
+[4.073s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/default_cam.yaml
+[4.090s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/fisheye.yaml
+[4.109s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/image.png
+[4.127s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/launch/__pycache__/lane_pipeline.launch.cpython-310.pyc
+[4.144s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/launch/lane_pipeline.launch.py
+[4.165s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases/burger_base.stl
+[4.182s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases/waffle_base.stl
+[4.200s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases/waffle_pi_base.stl
+[4.217s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/astra.dae
+[4.235s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/astra.jpg
+[4.253s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/lds.stl
+[4.269s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/r200.dae
+[4.286s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/r200.jpg
+[4.304s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/wheels/left_tire.stl
+[4.321s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/wheels/right_tire.stl
+[4.339s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/rviz/model.rviz
+[4.358s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf/common_properties.urdf
+[4.375s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf/turtlebot3_burger.urdf
+[4.394s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf/turtlebot3_waffle.urdf
+[4.411s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf/turtlebot3_waffle_pi.urdf
+[4.430s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/param/burger.yaml
+[4.447s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/param/waffle.yaml
+[4.464s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/param/waffle_pi.yaml
+[4.480s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/rviz/lane_pipeline.rviz
+[4.497s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/drivers/ld08_driver/launch/ld08.launch.py
+[4.516s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/drivers/coin_d4_driver/launch/single_lidar_node.launch.py
+[4.533s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/drivers/coin_d4_driver/params/single_lidar_node.yaml
+[4.554s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/control_table.hpp
+[4.574s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices/devices.hpp
+[4.591s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices/motor_power.hpp
+[4.608s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices/reset.hpp
+[4.625s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices/sound.hpp
+[4.642s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/diff_drive_controller.hpp
+[4.659s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/dynamixel_sdk_wrapper.hpp
+[4.677s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/odometry.hpp
+[4.694s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/battery_state.hpp
+[4.711s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/imu.hpp
+[4.729s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/joint_state.hpp
+[4.747s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/sensor_state.hpp
+[4.764s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/sensors.hpp
+[4.781s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/turtlebot3.hpp
+[4.799s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/twist_publisher.hpp
+[4.816s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/twist_subscriber.hpp
+[4.835s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/coin_d4_base_handler.hpp
+[4.854s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/coin_d4_lifecycle_handler.hpp
+[4.871s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/coin_d4_node_handler.hpp
+[4.888s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/handling_info.hpp
+[4.906s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/lidar_data_processor.hpp
+[4.923s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/lidar_information.hpp
+[4.940s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/locker.hpp
+[4.958s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/mtime.hpp
+[4.975s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/serial_port.hpp
+[4.991s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/timer.hpp
+[5.008s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/single_coin_d4_node.hpp
+[5.025s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/cmd_interface_linux.hpp
+[5.043s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/lipkg.hpp
+[5.060s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/pointdata.hpp
+[5.078s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/slbf.hpp
+[5.095s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/include/transform.hpp
+[5.112s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/library_path.sh
+[5.131s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/library_path.dsv
+[5.148s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/ament_index/resource_index/package_run_dependencies/lane_length_pkg
+[5.166s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/ament_index/resource_index/parent_prefix_path/lane_length_pkg
+[5.184s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/ament_prefix_path.sh
+[5.202s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/ament_prefix_path.dsv
+[5.220s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/path.sh
+[5.237s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/path.dsv
+[5.255s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/local_setup.bash
+[5.272s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/local_setup.sh
+[5.290s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/local_setup.zsh
+[5.307s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/local_setup.dsv
+[5.326s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/package.dsv
+[5.345s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/ament_index/resource_index/packages/lane_length_pkg
+[5.362s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.380s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[5.397s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.414s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/lane_length_pkgConfig.cmake
+[5.433s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/lane_length_pkgConfig-version.cmake
+[5.453s] -- Symlinking: /home/jhp/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/package.xml
+[5.621s] Listing '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg'...
+[5.621s] Compiling '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/behavior_plan_node.py'...
+[5.621s] Compiling '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/cooperation.py'...
+[5.621s] Compiling '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/drive_mode_node.py'...
+[5.621s] Compiling '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_decision_node.py'...
+[5.622s] Compiling '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_detection_node.py'...
+[5.622s] Compiling '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_follow_control_node.py'...
+[5.622s] Compiling '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/path_track_node.py'...
+[5.622s] Compiling '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/reverse_astar_planner_node.py'...
+[5.622s] Compiling '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/scene_fusion_node.py'...
+[5.622s] Compiling '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/situation_fusion.py'...
+[5.622s] Compiling '/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/topic_watchdog.py'...
+[5.639s] Invoked command in '/home/jhp/fsd_ws/build/lane_length_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhp/fsd2_ws/install/perception_py:/home/jhp/fsd2_ws/install/decision_py:/home/jhp/fsd2_ws/install/control_py:/home/jhp/camera_calib_ws/install/camera_calibration:/home/jhp/turtlebot3_ws/install/turtlebot3_teleop:/home/jhp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/jhp/fsd_ws/build/lane_length_pkg

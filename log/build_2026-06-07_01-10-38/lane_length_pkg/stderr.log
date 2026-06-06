@@ -1,0 +1,12 @@
+[01m[K/home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp:[m[K In member function ‘[01m[Kresult_t LidarDataProcessor::wait_package(node_info*, uint32_t)[m[K’:
+[01m[K/home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp:371:36:[m[K [01;35m[Kwarning: [m[Kwriting 1 byte into a region of size 0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+  371 |         [01;35m[Kpackage_buffer[recv_pos++] = current_byte[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/include/coin_d4_driver/lidar_sdk/lidar_data_processor.hpp:22[m[K,
+                 from [01m[K/home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp:23[m[K:
+[01m[K/home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/include/coin_d4_driver/lidar_sdk/lidar_information.hpp:154:12:[m[K [01;36m[Knote: [m[Kat offset 9 into destination object ‘[01m[Knode_packages::package_Head[m[K’ of size 2
+  154 |   uint16_t [01;36m[Kpackage_Head[m[K;
+      |            [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/include/coin_d4_driver/lidar_sdk/lidar_information.hpp:142:12:[m[K [01;36m[Knote: [m[Kat offset 9 into destination object ‘[01m[Knode_package::package_Head[m[K’ of size 2
+  142 |   uint16_t [01;36m[Kpackage_Head[m[K;
+      |            [01;36m[K^~~~~~~~~~~~[m[K
