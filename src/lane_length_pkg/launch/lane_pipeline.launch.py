@@ -314,7 +314,7 @@ def generate_launch_description():
             parameters=[{
                 'yield_accept_wait_sec': 3.0,
                 'blocked_reverse_delay_sec': 3.0,
-                'yield_wait_clear_sec': 3.0,
+                'yield_wait_clear_sec': 5.0,
                 'led_negotiation_mask': '11111',
                 'led_negotiation_min_bbox_area_px': 1200,
                 'led_negotiation_timeout_sec': 1.0,
