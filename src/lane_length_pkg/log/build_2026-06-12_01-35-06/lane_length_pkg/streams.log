@@ -1,0 +1,314 @@
+[0.020s] Invoking command in '/home/alexlee/fsd_ws/src/lane_length_pkg/build/lane_length_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/alexlee/fsd_ws/src/lane_length_pkg -DCMAKE_INSTALL_PREFIX=/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg
+[0.186s] -- The C compiler identification is GNU 11.4.0
+[0.299s] -- The CXX compiler identification is GNU 11.4.0
+[0.316s] -- Detecting C compiler ABI info
+[0.461s] -- Detecting C compiler ABI info - done
+[0.483s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.484s] -- Detecting C compile features
+[0.485s] -- Detecting C compile features - done
+[0.493s] -- Detecting CXX compiler ABI info
+[0.649s] -- Detecting CXX compiler ABI info - done
+[0.671s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.671s] -- Detecting CXX compile features
+[0.672s] -- Detecting CXX compile features - done
+[0.687s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.043s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.291s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[1.395s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.408s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.428s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.456s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.595s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.602s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.787s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.850s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.928s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.957s] -- Looking for pthread.h
+[2.096s] -- Looking for pthread.h - found
+[2.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.250s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.251s] -- Found Threads: TRUE  
+[2.380s] -- Found rclcpp_lifecycle: 16.0.18 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.423s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.451s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.485s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.527s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.570s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[2.591s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[2.614s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.797s] -- Found dynamixel_sdk: 4.0.5 (/home/alexlee/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[2.801s] -- Found turtlebot3_msgs: 2.4.0 (/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[2.867s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[3.236s] -- Configuring done
+[3.328s] -- Generating done
+[3.359s] -- Build files have been written to: /home/alexlee/fsd_ws/src/lane_length_pkg/build/lane_length_pkg
+[3.390s] Invoked command in '/home/alexlee/fsd_ws/src/lane_length_pkg/build/lane_length_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/alexlee/fsd_ws/src/lane_length_pkg -DCMAKE_INSTALL_PREFIX=/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg
+[3.395s] Invoking command in '/home/alexlee/fsd_ws/src/lane_length_pkg/build/lane_length_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/alexlee/fsd_ws/src/lane_length_pkg/build/lane_length_pkg -- -j6 -l6
+[3.517s] [ 12%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/drivers/ld08_driver/src/cmd_interface_linux.cpp.o[0m
+[3.517s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/devices/motor_power.cpp.o[0m
+[3.517s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/devices/sound.cpp.o[0m
+[3.517s] [ 12%] [32mBuilding CXX object CMakeFiles/localization_slam.dir/src/perception_cpp/localization_slam.cpp.o[0m
+[3.519s] [ 15%] [32mBuilding CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o[0m
+[3.555s] [ 15%] Built target ament_cmake_python_copy_lane_length_pkg
+[3.573s] [ 18%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/drivers/ld08_driver/src/lipkg.cpp.o[0m
+[5.414s] [ 21%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/drivers/ld08_driver/src/main.cpp.o[0m
+[11.166s] [01m[K/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp:[m[K In member function ‘[01m[Kresult_t LidarDataProcessor::wait_package(node_info*, uint32_t)[m[K’:
+[11.166s] [01m[K/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp:371:36:[m[K [01;35m[Kwarning: [m[Kwriting 1 byte into a region of size 0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+[11.167s]   371 |         [01;35m[Kpackage_buffer[recv_pos++] = current_byte[m[K;
+[11.167s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.167s] In file included from [01m[K/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/include/coin_d4_driver/lidar_sdk/lidar_data_processor.hpp:22[m[K,
+[11.167s]                  from [01m[K/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp:23[m[K:
+[11.167s] [01m[K/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/include/coin_d4_driver/lidar_sdk/lidar_information.hpp:154:12:[m[K [01;36m[Knote: [m[Kat offset 9 into destination object ‘[01m[Knode_packages::package_Head[m[K’ of size 2
+[11.167s]   154 |   uint16_t [01;36m[Kpackage_Head[m[K;
+[11.168s]       |            [01;36m[K^~~~~~~~~~~~[m[K
+[11.168s] [01m[K/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/include/coin_d4_driver/lidar_sdk/lidar_information.hpp:142:12:[m[K [01;36m[Knote: [m[Kat offset 9 into destination object ‘[01m[Knode_package::package_Head[m[K’ of size 2
+[11.168s]   142 |   uint16_t [01;36m[Kpackage_Head[m[K;
+[11.168s]       |            [01;36m[K^~~~~~~~~~~~[m[K
+[11.337s] [ 25%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/drivers/ld08_driver/src/slbf.cpp.o[0m
+[11.521s] [ 28%] [32mBuilding CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o[0m
+[11.832s] [ 31%] [32mBuilding CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o[0m
+[12.991s] [ 34%] [32mBuilding CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o[0m
+[13.146s] [ 37%] [32mBuilding CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o[0m
+[14.397s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/devices/reset.cpp.o[0m
+[15.460s] [ 43%] [32mBuilding CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/diff_drive_controller.cpp.o[0m
+[18.871s] [ 46%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/drivers/ld08_driver/src/transform.cpp.o[0m
+[19.665s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/dynamixel_sdk_wrapper.cpp.o[0m
+[21.263s] [ 53%] [32mBuilding CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o[0m
+[24.162s] [ 56%] [32mBuilding CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o[0m
+[24.945s] [ 59%] [32mBuilding CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/odometry.cpp.o[0m
+[25.983s] [ 62%] [32m[1mLinking CXX executable ld08_driver[0m
+[26.288s] [ 62%] Built target ld08_driver
+[26.894s] running egg_info
+[26.896s] creating lane_length_pkg.egg-info
+[26.896s] writing lane_length_pkg.egg-info/PKG-INFO
+[26.897s] writing dependency_links to lane_length_pkg.egg-info/dependency_links.txt
+[26.897s] writing top-level names to lane_length_pkg.egg-info/top_level.txt
+[26.898s] writing manifest file 'lane_length_pkg.egg-info/SOURCES.txt'
+[26.905s] reading manifest file 'lane_length_pkg.egg-info/SOURCES.txt'
+[26.906s] writing manifest file 'lane_length_pkg.egg-info/SOURCES.txt'
+[26.994s] [ 62%] Built target ament_cmake_python_build_lane_length_pkg_egg
+[27.013s] [ 65%] [32mBuilding CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/turtlebot3.cpp.o[0m
+[27.119s] [ 68%] [32mBuilding CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/sensors/battery_state.cpp.o[0m
+[35.305s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/sensors/imu.cpp.o[0m
+[38.109s] [ 75%] [32m[1mLinking CXX shared library libcoin_d4_driver_lib.so[0m
+[38.466s] [ 75%] Built target coin_d4_driver_lib
+[38.522s] [ 78%] [32mBuilding CXX object CMakeFiles/single_coin_d4_node.dir/drivers/coin_d4_driver/src/single_coin_d4_node.cpp.o[0m
+[40.438s] [ 81%] [32mBuilding CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/sensors/joint_state.cpp.o[0m
+[46.966s] [ 84%] [32m[1mLinking CXX executable single_coin_d4_node[0m
+[47.315s] [ 84%] Built target single_coin_d4_node
+[47.336s] [ 87%] [32mBuilding CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/sensors/sensor_state.cpp.o[0m
+[56.172s] [ 90%] [32m[1mLinking CXX executable localization_slam[0m
+[56.723s] [ 90%] Built target localization_slam
+[77.797s] [ 93%] [32m[1mLinking CXX static library libturtlebot3_control_lib.a[0m
+[78.061s] [ 93%] Built target turtlebot3_control_lib
+[78.105s] [ 96%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/control_cpp/node_main.cpp.o[0m
+[86.832s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[87.673s] [100%] Built target turtlebot3_ros
+[87.713s] Invoked command in '/home/alexlee/fsd_ws/src/lane_length_pkg/build/lane_length_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/alexlee/fsd_ws/src/lane_length_pkg/build/lane_length_pkg -- -j6 -l6
+[87.747s] Invoking command in '/home/alexlee/fsd_ws/src/lane_length_pkg/build/lane_length_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/alexlee/fsd_ws/src/lane_length_pkg/build/lane_length_pkg
+[87.767s] -- Install configuration: ""
+[87.768s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/environment/pythonpath.sh
+[87.768s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/environment/pythonpath.dsv
+[87.769s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info
+[87.769s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[87.770s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[87.770s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[87.770s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[87.771s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg
+[87.771s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_behavior.py
+[87.771s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/situation_fusion.py
+[87.772s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_follow_control_node.py
+[87.772s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/space_memory.py
+[87.772s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_signal.py
+[87.773s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/safety_filter_node.py
+[87.773s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/path_track_node.py
+[87.774s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/topic_watchdog.py
+[87.774s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/cooperation.py
+[87.774s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_integration_node.py
+[87.775s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/scene_fusion_node.py
+[87.775s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/drive_mode_node.py
+[87.775s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_decision_node.py
+[87.776s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_detection_node.py
+[87.776s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/behavior_plan_node.py
+[87.777s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/reverse_astar_planner_node.py
+[87.777s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/cmd_mux_node.py
+[87.777s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/__init__.py
+[87.778s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/object_detect.py
+[87.778s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_viewer_node.py
+[87.778s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/deadlock.py
+[87.779s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_io.py
+[87.779s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_follow_eval_node.py
+[87.779s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/camera_driver.py
+[87.977s] Listing '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg'...
+[87.977s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/__init__.py'...
+[87.977s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/behavior_plan_node.py'...
+[87.977s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/camera_driver.py'...
+[87.978s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/cmd_mux_node.py'...
+[87.978s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/cooperation.py'...
+[87.978s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/deadlock.py'...
+[87.978s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/drive_mode_node.py'...
+[87.978s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_decision_node.py'...
+[87.978s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_detection_node.py'...
+[87.978s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_follow_control_node.py'...
+[87.978s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_follow_eval_node.py'...
+[87.979s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_integration_node.py'...
+[87.979s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_viewer_node.py'...
+[87.979s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_behavior.py'...
+[87.979s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_io.py'...
+[87.979s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_signal.py'...
+[87.979s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/object_detect.py'...
+[87.979s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/path_track_node.py'...
+[87.979s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/reverse_astar_planner_node.py'...
+[87.979s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/safety_filter_node.py'...
+[87.980s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/scene_fusion_node.py'...
+[87.980s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/situation_fusion.py'...
+[87.980s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/space_memory.py'...
+[87.980s] Compiling '/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/topic_watchdog.py'...
+[87.991s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/detection_node
+[87.991s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/integration_node
+[87.992s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/control_node
+[87.993s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/decision_node
+[87.993s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/viewer_node
+[87.994s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/lane_detection_node
+[87.994s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/lane_integration_node
+[87.995s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/lane_decision_node
+[87.995s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/lane_follow_control_node
+[87.995s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/lane_viewer_node
+[87.996s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/scene_fusion_node
+[87.996s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/drive_mode_node
+[87.997s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/behavior_plan_node
+[87.998s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/reverse_astar_planner_node
+[87.998s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/path_track_node
+[87.998s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/lane_follow_eval
+[87.999s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/cmd_mux_node
+[87.999s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/safety_filter_node
+[87.999s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/camera_driver
+[88.000s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/object_detect
+[88.000s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/led_signal
+[88.000s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/space_memory
+[88.001s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/situation_fusion
+[88.001s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/deadlock
+[88.002s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/cooperation
+[88.002s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/topic_watchdog
+[88.002s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/led_behavior
+[88.003s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/led_io
+[88.003s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/localization_slam
+[88.009s] -- Set runtime path of "/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/localization_slam" to ""
+[88.009s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/turtlebot3_ros
+[88.019s] -- Set runtime path of "/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/turtlebot3_ros" to ""
+[88.020s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/ld08_driver
+[88.021s] -- Set runtime path of "/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/ld08_driver" to ""
+[88.021s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/single_coin_d4_node
+[88.022s] -- Set runtime path of "/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/lane_length_pkg/single_coin_d4_node" to ""
+[88.023s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/libturtlebot3_control_lib.a
+[88.049s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/libcoin_d4_driver_lib.so
+[88.052s] -- Set runtime path of "/home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/lib/libcoin_d4_driver_lib.so" to ""
+[88.052s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/config
+[88.052s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/config/image.png
+[88.053s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/config/Hinv.npy
+[88.053s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/config/fisheye.yaml
+[88.054s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/config/Screenshot from 2026-06-06 15-24-55.png
+[88.055s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/config/Screenshot from 2026-06-06 15-13-43.png
+[88.056s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/config/default_cam.yaml
+[88.057s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/config/Screenshot from 2026-06-07 01-25-02.png
+[88.060s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/config/H.npy
+[88.060s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/launch
+[88.061s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/launch/__pycache__
+[88.061s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/launch/__pycache__/lane_pipeline.launch.cpython-310.pyc
+[88.061s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/launch/lane_pipeline.launch.py
+[88.061s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description
+[88.062s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/urdf
+[88.062s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/urdf/common_properties.urdf
+[88.062s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/urdf/turtlebot3_burger.urdf
+[88.062s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/urdf/turtlebot3_waffle_pi.urdf
+[88.063s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/urdf/turtlebot3_waffle.urdf
+[88.063s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/rviz
+[88.063s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/rviz/model.rviz
+[88.064s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes
+[88.064s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors
+[88.064s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/r200.dae
+[88.065s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/astra.dae
+[88.093s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/lds.stl
+[88.095s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/astra.jpg
+[88.095s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/r200.jpg
+[88.096s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/wheels
+[88.096s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/wheels/left_tire.stl
+[88.099s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/wheels/right_tire.stl
+[88.102s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases
+[88.102s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases/waffle_base.stl
+[88.153s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases/waffle_pi_base.stl
+[88.177s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases/burger_base.stl
+[88.193s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/param
+[88.193s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/param/waffle.yaml
+[88.193s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/param/waffle_pi.yaml
+[88.193s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/param/burger.yaml
+[88.194s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/rviz
+[88.194s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/rviz/lane_pipeline.rviz
+[88.195s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/drivers/ld08_driver/launch
+[88.195s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/drivers/ld08_driver/launch/ld08.launch.py
+[88.195s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/drivers/coin_d4_driver/launch
+[88.196s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/drivers/coin_d4_driver/launch/single_lidar_node.launch.py
+[88.196s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/drivers/coin_d4_driver/params
+[88.196s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/drivers/coin_d4_driver/params/single_lidar_node.yaml
+[88.196s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include
+[88.196s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node
+[88.197s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/odometry.hpp
+[88.197s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/sensors
+[88.197s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/sensors/sensor_state.hpp
+[88.197s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/sensors/sensors.hpp
+[88.197s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/sensors/battery_state.hpp
+[88.198s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/sensors/imu.hpp
+[88.198s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/sensors/joint_state.hpp
+[88.198s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/control_table.hpp
+[88.198s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/devices
+[88.198s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/devices/reset.hpp
+[88.198s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/devices/motor_power.hpp
+[88.199s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/devices/devices.hpp
+[88.199s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/devices/sound.hpp
+[88.199s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/turtlebot3.hpp
+[88.199s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/dynamixel_sdk_wrapper.hpp
+[88.199s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/twist_subscriber.hpp
+[88.200s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/twist_publisher.hpp
+[88.200s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/turtlebot3_node/diff_drive_controller.hpp
+[88.200s] -- Up-to-date: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include
+[88.200s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver
+[88.200s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk
+[88.201s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/locker.hpp
+[88.201s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/serial_port.hpp
+[88.201s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/lidar_data_processor.hpp
+[88.201s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/lidar_information.hpp
+[88.201s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/timer.hpp
+[88.202s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/handling_info.hpp
+[88.202s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/mtime.hpp
+[88.202s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver/coin_d4_base_handler.hpp
+[88.202s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver/coin_d4_node_handler.hpp
+[88.202s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver/single_coin_d4_node.hpp
+[88.203s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/coin_d4_driver/coin_d4_lifecycle_handler.hpp
+[88.203s] -- Up-to-date: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include
+[88.203s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/slbf.hpp
+[88.203s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/cmd_interface_linux.hpp
+[88.203s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/transform.hpp
+[88.204s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/pointdata.hpp
+[88.204s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/include/lipkg.hpp
+[88.205s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/environment/library_path.sh
+[88.205s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/environment/library_path.dsv
+[88.206s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/ament_index/resource_index/package_run_dependencies/lane_length_pkg
+[88.207s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/ament_index/resource_index/parent_prefix_path/lane_length_pkg
+[88.208s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/environment/ament_prefix_path.sh
+[88.208s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/environment/ament_prefix_path.dsv
+[88.208s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/environment/path.sh
+[88.209s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/environment/path.dsv
+[88.209s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/local_setup.bash
+[88.210s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/local_setup.sh
+[88.210s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/local_setup.zsh
+[88.210s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/local_setup.dsv
+[88.211s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/package.dsv
+[88.211s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/ament_index/resource_index/packages/lane_length_pkg
+[88.212s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[88.212s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[88.213s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[88.213s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/cmake/lane_length_pkgConfig.cmake
+[88.214s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/cmake/lane_length_pkgConfig-version.cmake
+[88.214s] -- Installing: /home/alexlee/fsd_ws/src/lane_length_pkg/install/lane_length_pkg/share/lane_length_pkg/package.xml
+[88.224s] Invoked command in '/home/alexlee/fsd_ws/src/lane_length_pkg/build/lane_length_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/alexlee/fsd_ws/src/lane_length_pkg/build/lane_length_pkg

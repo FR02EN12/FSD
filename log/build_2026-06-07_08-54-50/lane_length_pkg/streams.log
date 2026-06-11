@@ -1,0 +1,55 @@
+[0.021s] Invoking command in '/home/alexlee/fsd_ws/build/lane_length_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/alexlee/fsd_ws/src/lane_length_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alexlee/fsd_ws/install/lane_length_pkg
+[0.210s] -- The C compiler identification is GNU 11.4.0
+[0.377s] -- The CXX compiler identification is GNU 11.4.0
+[0.399s] -- Detecting C compiler ABI info
+[0.544s] -- Detecting C compiler ABI info - done
+[0.564s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.565s] -- Detecting C compile features
+[0.567s] -- Detecting C compile features - done
+[0.576s] -- Detecting CXX compiler ABI info
+[0.741s] -- Detecting CXX compiler ABI info - done
+[0.765s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.765s] -- Detecting CXX compile features
+[0.766s] -- Detecting CXX compile features - done
+[0.783s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.154s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.320s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.427s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[1.541s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.555s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.578s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.610s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.767s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.775s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.964s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.035s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.121s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.147s] -- Looking for pthread.h
+[2.300s] -- Looking for pthread.h - found
+[2.300s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.457s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.460s] -- Found Threads: TRUE  
+[2.614s] -- Found rclcpp_lifecycle: 16.0.18 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.665s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.697s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.736s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.776s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.819s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[2.844s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[2.870s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.077s] -- Found dynamixel_sdk: 4.0.3 (/home/alexlee/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[3.084s] -- Found turtlebot3_msgs: 2.4.0 (/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[3.150s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[3.340s] CMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[3.340s]   ament_python_install_package() the Python package folder
+[3.340s]   '/home/alexlee/fsd_ws/src/lane_length_pkg/lane_length_pkg/lane_length_pkg'
+[3.340s]   doesn't contain an '__init__.py' file
+[3.341s] Call Stack (most recent call first):
+[3.341s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[3.341s]   CMakeLists.txt:29 (ament_python_install_package)
+[3.341s] 
+[3.341s] 
+[3.341s] -- Configuring incomplete, errors occurred!
+[3.341s] See also "/home/alexlee/fsd_ws/build/lane_length_pkg/CMakeFiles/CMakeOutput.log".
+[3.371s] Invoked command in '/home/alexlee/fsd_ws/build/lane_length_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/alexlee/fsd_ws/src/lane_length_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alexlee/fsd_ws/install/lane_length_pkg

@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6ebbf33dabec8e3c967f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lane_length_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lane_length_pkg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lane_length_pkg_egg-8424230d2a4dc0e4e457.json",
+					"name" : "ament_cmake_python_build_lane_length_pkg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_lane_length_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_lane_length_pkg-695d9002422f7bb3e3df.json",
+					"name" : "ament_cmake_python_copy_lane_length_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coin_d4_driver_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coin_d4_driver_lib-caaa8cbaba5a47f39976.json",
+					"name" : "coin_d4_driver_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lane_length_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lane_length_pkg_uninstall-4595b041d18309d742d8.json",
+					"name" : "lane_length_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ld08_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ld08_driver-4cec57e30a4da9603789.json",
+					"name" : "ld08_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "localization_slam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-localization_slam-b1e60b1915173db72e38.json",
+					"name" : "localization_slam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_coin_d4_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_coin_d4_node-2f2eaadca9496227eb26.json",
+					"name" : "single_coin_d4_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_control_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_control_lib-a7f448828926ef311c65.json",
+					"name" : "turtlebot3_control_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_ros-aa8468ff7876024e3e24.json",
+					"name" : "turtlebot3_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-19a93b32c94a2c6855ec.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/alexlee/fsd_ws/src/lane_length_pkg/build/lane_length_pkg",
+		"source" : "/home/alexlee/fsd_ws/src/lane_length_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (lane_length_pkg) JobQueued: {'identifier': 'lane_length_pkg', 'dependencies': OrderedDict()}
+[0.000997] (lane_length_pkg) JobStarted: {'identifier': 'lane_length_pkg'}
+[0.019627] (lane_length_pkg) JobProgress: {'identifier': 'lane_length_pkg', 'progress': 'cmake'}
+[0.021132] (lane_length_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/alexlee/fsd_ws/src/lane_length_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/alexlee/fsd_ws/install/lane_length_pkg'], 'cwd': '/home/alexlee/fsd_ws/build/lane_length_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('USER', 'alexlee'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alexlee/fsd_ws/install/lane_length_pkg/lib:/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk/lib:/home/alexlee/turtlebot3_ws/install/coin_d4_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alexlee'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2089'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e2716d19225fbdfe22924ae76a249845'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/alexlee/fsd_ws/install:/home/alexlee/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alexlee'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alexlee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alexlee/.local/bin:/home/alexlee/.codex/tmp/arg0/codex-arg0sulTvN:/home/alexlee/.local/bin:/opt/ros/humble/bin:/home/alexlee/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alexlee-desktop:@/tmp/.ICE-unix/2089,unix/alexlee-desktop:/tmp/.ICE-unix/2089'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0bfa4273_a0e7_4f11_8d91_8d2cc081ee4e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alexlee/turtlebot3_ws/install/turtlebot3:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_bringup:/home/alexlee/turtlebot3_ws/install/turtlebot3_node:/home/alexlee/turtlebot3_ws/install/turtlebot3_navigation2:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs:/home/alexlee/turtlebot3_ws/install/turtlebot3_description:/home/alexlee/turtlebot3_ws/install/turtlebot3_cartographer:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_examples:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk:/home/alexlee/turtlebot3_ws/install/coin_d4_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e9f59-d349-7db2-be93-49e49d8b9c8f'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alexlee/fsd_ws/build/lane_length_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e2716d19225fbdfe22924ae76a249845'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/alexlee/turtlebot3_ws/build/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/alexlee/turtlebot3_ws/build/turtlebot3_example:/home/alexlee/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alexlee/fsd_ws/install/lane_length_pkg:/home/alexlee/turtlebot3_ws/install/turtlebot3:/home/alexlee/turtlebot3_ws/install/turtlebot3_bringup:/home/alexlee/turtlebot3_ws/install/turtlebot3_node:/home/alexlee/turtlebot3_ws/install/turtlebot3_navigation2:/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs:/home/alexlee/turtlebot3_ws/install/turtlebot3_description:/home/alexlee/turtlebot3_ws/install/turtlebot3_cartographer:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_examples:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk:/home/alexlee/turtlebot3_ws/install/coin_d4_driver:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.048708] (lane_length_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099433] (-) TimerEvent: {}
+[0.199789] (-) TimerEvent: {}
+[0.300142] (-) TimerEvent: {}
+[0.323074] (lane_length_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.342265] (lane_length_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400304] (-) TimerEvent: {}
+[0.410657] (lane_length_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.414953] (lane_length_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.426089] (lane_length_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.444798] (lane_length_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.468472] (lane_length_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500459] (-) TimerEvent: {}
+[0.529065] (lane_length_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.532097] (lane_length_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600631] (-) TimerEvent: {}
+[0.701011] (-) TimerEvent: {}
+[0.727972] (lane_length_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801262] (-) TimerEvent: {}
+[0.818297] (lane_length_pkg) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.18 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.847496] (lane_length_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.869986] (lane_length_pkg) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.898973] (lane_length_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.901310] (-) TimerEvent: {}
+[0.929005] (lane_length_pkg) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.963297] (lane_length_pkg) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.978983] (lane_length_pkg) StdoutLine: {'line': b'-- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.985798] (lane_length_pkg) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.001478] (-) TimerEvent: {}
+[1.101861] (-) TimerEvent: {}
+[1.126561] (lane_length_pkg) StdoutLine: {'line': b'-- Found dynamixel_sdk: 4.0.3 (/home/alexlee/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)\n'}
+[1.129431] (lane_length_pkg) StdoutLine: {'line': b'-- Found turtlebot3_msgs: 2.4.0 (/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)\n'}
+[1.201994] (-) TimerEvent: {}
+[1.302278] (-) TimerEvent: {}
+[1.402604] (-) TimerEvent: {}
+[1.502948] (-) TimerEvent: {}
+[1.532963] (lane_length_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.603114] (-) TimerEvent: {}
+[1.632218] (lane_length_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.658276] (lane_length_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/alexlee/fsd_ws/build/lane_length_pkg\n'}
+[1.682015] (lane_length_pkg) CommandEnded: {'returncode': 0}
+[1.684167] (lane_length_pkg) JobProgress: {'identifier': 'lane_length_pkg', 'progress': 'build'}
+[1.686408] (lane_length_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alexlee/fsd_ws/build/lane_length_pkg', '--', '-j6', '-l6'], 'cwd': '/home/alexlee/fsd_ws/build/lane_length_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('USER', 'alexlee'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alexlee/fsd_ws/install/lane_length_pkg/lib:/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk/lib:/home/alexlee/turtlebot3_ws/install/coin_d4_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alexlee'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2089'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e2716d19225fbdfe22924ae76a249845'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/alexlee/fsd_ws/install:/home/alexlee/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alexlee'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alexlee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alexlee/.local/bin:/home/alexlee/.codex/tmp/arg0/codex-arg0sulTvN:/home/alexlee/.local/bin:/opt/ros/humble/bin:/home/alexlee/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alexlee-desktop:@/tmp/.ICE-unix/2089,unix/alexlee-desktop:/tmp/.ICE-unix/2089'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0bfa4273_a0e7_4f11_8d91_8d2cc081ee4e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alexlee/turtlebot3_ws/install/turtlebot3:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_bringup:/home/alexlee/turtlebot3_ws/install/turtlebot3_node:/home/alexlee/turtlebot3_ws/install/turtlebot3_navigation2:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs:/home/alexlee/turtlebot3_ws/install/turtlebot3_description:/home/alexlee/turtlebot3_ws/install/turtlebot3_cartographer:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_examples:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk:/home/alexlee/turtlebot3_ws/install/coin_d4_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e9f59-d349-7db2-be93-49e49d8b9c8f'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alexlee/fsd_ws/build/lane_length_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e2716d19225fbdfe22924ae76a249845'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/alexlee/turtlebot3_ws/build/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/alexlee/turtlebot3_ws/build/turtlebot3_example:/home/alexlee/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alexlee/fsd_ws/install/lane_length_pkg:/home/alexlee/turtlebot3_ws/install/turtlebot3:/home/alexlee/turtlebot3_ws/install/turtlebot3_bringup:/home/alexlee/turtlebot3_ws/install/turtlebot3_node:/home/alexlee/turtlebot3_ws/install/turtlebot3_navigation2:/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs:/home/alexlee/turtlebot3_ws/install/turtlebot3_description:/home/alexlee/turtlebot3_ws/install/turtlebot3_cartographer:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_examples:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk:/home/alexlee/turtlebot3_ws/install/coin_d4_driver:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[1.703218] (-) TimerEvent: {}
+[1.803679] (lane_length_pkg) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target localization_slam\n'}
+[1.804080] (-) TimerEvent: {}
+[1.819433] (lane_length_pkg) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ld08_driver\n'}
+[1.830776] (lane_length_pkg) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target coin_d4_driver_lib\n'}
+[1.835185] (lane_length_pkg) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_lane_length_pkg\n'}
+[1.848569] (lane_length_pkg) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target turtlebot3_control_lib\n'}
+[1.855151] (lane_length_pkg) StdoutLine: {'line': b'[  3%] Building CXX object CMakeFiles/ld08_driver.dir/drivers/ld08_driver/src/cmd_interface_linux.cpp.o\n'}
+[1.857413] (lane_length_pkg) StdoutLine: {'line': b'[  6%] Building CXX object CMakeFiles/ld08_driver.dir/drivers/ld08_driver/src/lipkg.cpp.o\n'}
+[1.869627] (lane_length_pkg) StdoutLine: {'line': b'[  9%] Building CXX object CMakeFiles/localization_slam.dir/src/perception_cpp/localization_slam.cpp.o\n'}
+[1.871215] (lane_length_pkg) StdoutLine: {'line': b'[ 12%] Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o\n'}
+[1.904261] (-) TimerEvent: {}
+[1.907208] (lane_length_pkg) StdoutLine: {'line': b'[ 15%] Building CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/devices/motor_power.cpp.o\n'}
+[2.005325] (-) TimerEvent: {}
+[2.105687] (-) TimerEvent: {}
+[2.206605] (-) TimerEvent: {}
+[2.306965] (-) TimerEvent: {}
+[2.407329] (-) TimerEvent: {}
+[2.409823] (lane_length_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.412610] (lane_length_pkg) StdoutLine: {'line': b'writing lane_length_pkg.egg-info/PKG-INFO\n'}
+[2.413999] (lane_length_pkg) StdoutLine: {'line': b'writing dependency_links to lane_length_pkg.egg-info/dependency_links.txt\n'}
+[2.415151] (lane_length_pkg) StdoutLine: {'line': b'writing top-level names to lane_length_pkg.egg-info/top_level.txt\n'}
+[2.423326] (lane_length_pkg) StdoutLine: {'line': b"reading manifest file 'lane_length_pkg.egg-info/SOURCES.txt'\n"}
+[2.426054] (lane_length_pkg) StdoutLine: {'line': b"writing manifest file 'lane_length_pkg.egg-info/SOURCES.txt'\n"}
+[2.507544] (-) TimerEvent: {}
+[2.515071] (lane_length_pkg) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_build_lane_length_pkg_egg\n'}
+[2.538266] (lane_length_pkg) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o\n'}
+[2.607768] (-) TimerEvent: {}
+[2.708211] (-) TimerEvent: {}
+[2.808688] (-) TimerEvent: {}
+[2.839557] (lane_length_pkg) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o\n'}
+[2.908900] (-) TimerEvent: {}
+[3.009401] (-) TimerEvent: {}
+[3.109847] (-) TimerEvent: {}
+[3.210279] (-) TimerEvent: {}
+[3.310733] (-) TimerEvent: {}
+[3.411221] (-) TimerEvent: {}
+[3.511667] (-) TimerEvent: {}
+[3.612129] (-) TimerEvent: {}
+[3.712573] (-) TimerEvent: {}
+[3.813039] (-) TimerEvent: {}
+[3.855701] (lane_length_pkg) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/ld08_driver.dir/drivers/ld08_driver/src/main.cpp.o\n'}
+[3.913265] (-) TimerEvent: {}
+[3.992238] (lane_length_pkg) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o\n'}
+[4.013461] (-) TimerEvent: {}
+[4.113895] (-) TimerEvent: {}
+[4.149793] (lane_length_pkg) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o\n'}
+[4.214088] (-) TimerEvent: {}
+[4.314536] (-) TimerEvent: {}
+[4.414974] (-) TimerEvent: {}
+[4.515919] (-) TimerEvent: {}
+[4.616344] (-) TimerEvent: {}
+[4.716778] (-) TimerEvent: {}
+[4.817279] (-) TimerEvent: {}
+[4.917827] (-) TimerEvent: {}
+[5.018258] (-) TimerEvent: {}
+[5.118724] (-) TimerEvent: {}
+[5.219188] (-) TimerEvent: {}
+[5.319640] (-) TimerEvent: {}
+[5.420074] (-) TimerEvent: {}
+[5.520553] (-) TimerEvent: {}
+[5.621001] (-) TimerEvent: {}
+[5.721472] (-) TimerEvent: {}
+[5.824903] (-) TimerEvent: {}
+[5.925366] (-) TimerEvent: {}
+[6.025793] (-) TimerEvent: {}
+[6.126253] (-) TimerEvent: {}
+[6.226702] (-) TimerEvent: {}
+[6.327158] (-) TimerEvent: {}
+[6.427629] (-) TimerEvent: {}
+[6.528077] (-) TimerEvent: {}
+[6.628531] (-) TimerEvent: {}
+[6.728959] (-) TimerEvent: {}
+[6.829423] (-) TimerEvent: {}
+[6.929851] (-) TimerEvent: {}
+[7.030637] (-) TimerEvent: {}
+[7.131066] (-) TimerEvent: {}
+[7.231507] (-) TimerEvent: {}
+[7.331936] (-) TimerEvent: {}
+[7.433001] (-) TimerEvent: {}
+[7.533471] (-) TimerEvent: {}
+[7.633916] (-) TimerEvent: {}
+[7.734358] (-) TimerEvent: {}
+[7.834806] (-) TimerEvent: {}
+[7.935237] (-) TimerEvent: {}
+[8.035704] (-) TimerEvent: {}
+[8.136159] (-) TimerEvent: {}
+[8.236623] (-) TimerEvent: {}
+[8.337509] (-) TimerEvent: {}
+[8.437943] (-) TimerEvent: {}
+[8.538391] (-) TimerEvent: {}
+[8.638849] (-) TimerEvent: {}
+[8.739314] (-) TimerEvent: {}
+[8.839747] (-) TimerEvent: {}
+[8.940201] (-) TimerEvent: {}
+[9.040640] (-) TimerEvent: {}
+[9.141108] (-) TimerEvent: {}
+[9.241564] (-) TimerEvent: {}
+[9.341999] (-) TimerEvent: {}
+[9.442432] (-) TimerEvent: {}
+[9.542871] (-) TimerEvent: {}
+[9.643325] (-) TimerEvent: {}
+[9.743768] (-) TimerEvent: {}
+[9.844194] (-) TimerEvent: {}
+[9.849932] (lane_length_pkg) StderrLine: {'line': b'/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp: In member function \xe2\x80\x98result_t LidarDataProcessor::wait_package(node_info*, uint32_t)\xe2\x80\x99:\n'}
+[9.850447] (lane_length_pkg) StderrLine: {'line': b'/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp:371:36: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]\n'}
+[9.850612] (lane_length_pkg) StderrLine: {'line': b'  371 |         package_buffer[recv_pos++] = current_byte;\n'}
+[9.850745] (lane_length_pkg) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\n'}
+[9.850895] (lane_length_pkg) StderrLine: {'line': b'In file included from /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/include/coin_d4_driver/lidar_sdk/lidar_data_processor.hpp:22,\n'}
+[9.851044] (lane_length_pkg) StderrLine: {'line': b'                 from /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp:23:\n'}
+[9.851166] (lane_length_pkg) StderrLine: {'line': b'/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/include/coin_d4_driver/lidar_sdk/lidar_information.hpp:154:12: note: at offset 9 into destination object \xe2\x80\x98node_packages::package_Head\xe2\x80\x99 of size 2\n'}
+[9.851286] (lane_length_pkg) StderrLine: {'line': b'  154 |   uint16_t package_Head;\n'}
+[9.851401] (lane_length_pkg) StderrLine: {'line': b'      |            ^~~~~~~~~~~~\n'}
+[9.851511] (lane_length_pkg) StderrLine: {'line': b'/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/include/coin_d4_driver/lidar_sdk/lidar_information.hpp:142:12: note: at offset 9 into destination object \xe2\x80\x98node_package::package_Head\xe2\x80\x99 of size 2\n'}
+[9.851623] (lane_length_pkg) StderrLine: {'line': b'  142 |   uint16_t package_Head;\n'}
+[9.851732] (lane_length_pkg) StderrLine: {'line': b'      |            ^~~~~~~~~~~~\n'}
+[9.944422] (-) TimerEvent: {}
+[10.044837] (-) TimerEvent: {}
+[10.107690] (lane_length_pkg) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/devices/sound.cpp.o\n'}
+[10.145077] (-) TimerEvent: {}
+[10.245533] (-) TimerEvent: {}
+[10.345964] (-) TimerEvent: {}
+[10.418305] (lane_length_pkg) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/ld08_driver.dir/drivers/ld08_driver/src/slbf.cpp.o\n'}
+[10.446202] (-) TimerEvent: {}
+[10.546680] (-) TimerEvent: {}
+[10.647108] (-) TimerEvent: {}
+[10.747523] (-) TimerEvent: {}
+[10.847955] (-) TimerEvent: {}
+[10.948382] (-) TimerEvent: {}
+[11.048824] (-) TimerEvent: {}
+[11.149296] (-) TimerEvent: {}
+[11.249721] (-) TimerEvent: {}
+[11.350180] (-) TimerEvent: {}
+[11.450611] (-) TimerEvent: {}
+[11.551036] (-) TimerEvent: {}
+[11.651456] (-) TimerEvent: {}
+[11.751881] (-) TimerEvent: {}
+[11.852343] (-) TimerEvent: {}
+[11.952780] (-) TimerEvent: {}
+[12.053239] (-) TimerEvent: {}
+[12.153654] (-) TimerEvent: {}
+[12.254083] (-) TimerEvent: {}
+[12.354507] (-) TimerEvent: {}
+[12.454949] (-) TimerEvent: {}
+[12.555416] (-) TimerEvent: {}
+[12.655878] (-) TimerEvent: {}
+[12.756338] (-) TimerEvent: {}
+[12.856788] (-) TimerEvent: {}
+[12.957291] (-) TimerEvent: {}
+[13.057742] (-) TimerEvent: {}
+[13.158153] (-) TimerEvent: {}
+[13.258590] (-) TimerEvent: {}
+[13.359022] (-) TimerEvent: {}
+[13.459493] (-) TimerEvent: {}
+[13.559949] (-) TimerEvent: {}
+[13.660434] (-) TimerEvent: {}
+[13.689756] (lane_length_pkg) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/ld08_driver.dir/drivers/ld08_driver/src/transform.cpp.o\n'}
+[13.760663] (-) TimerEvent: {}
+[13.861085] (-) TimerEvent: {}
+[13.961543] (-) TimerEvent: {}
+[14.061970] (-) TimerEvent: {}
+[14.162398] (-) TimerEvent: {}
+[14.262844] (-) TimerEvent: {}
+[14.363270] (-) TimerEvent: {}
+[14.463740] (-) TimerEvent: {}
+[14.564176] (-) TimerEvent: {}
+[14.664611] (-) TimerEvent: {}
+[14.765057] (-) TimerEvent: {}
+[14.865531] (-) TimerEvent: {}
+[14.965951] (-) TimerEvent: {}
+[15.066378] (-) TimerEvent: {}
+[15.091889] (lane_length_pkg) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o\n'}
+[15.166594] (-) TimerEvent: {}
+[15.267065] (-) TimerEvent: {}
+[15.367492] (-) TimerEvent: {}
+[15.467916] (-) TimerEvent: {}
+[15.568387] (-) TimerEvent: {}
+[15.668794] (-) TimerEvent: {}
+[15.770134] (-) TimerEvent: {}
+[15.870566] (-) TimerEvent: {}
+[15.971016] (-) TimerEvent: {}
+[16.071486] (-) TimerEvent: {}
+[16.171943] (-) TimerEvent: {}
+[16.272371] (-) TimerEvent: {}
+[16.372814] (-) TimerEvent: {}
+[16.473332] (-) TimerEvent: {}
+[16.573760] (-) TimerEvent: {}
+[16.674194] (-) TimerEvent: {}
+[16.774616] (-) TimerEvent: {}
+[16.875090] (-) TimerEvent: {}
+[16.975742] (-) TimerEvent: {}
+[17.076194] (-) TimerEvent: {}
+[17.176621] (-) TimerEvent: {}
+[17.277098] (-) TimerEvent: {}
+[17.377562] (-) TimerEvent: {}
+[17.477993] (-) TimerEvent: {}
+[17.578450] (-) TimerEvent: {}
+[17.678877] (-) TimerEvent: {}
+[17.779327] (-) TimerEvent: {}
+[17.879771] (-) TimerEvent: {}
+[17.980246] (-) TimerEvent: {}
+[18.080669] (-) TimerEvent: {}
+[18.181197] (-) TimerEvent: {}
+[18.266939] (lane_length_pkg) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/devices/reset.cpp.o\n'}
+[18.281385] (-) TimerEvent: {}
+[18.381795] (-) TimerEvent: {}
+[18.482214] (-) TimerEvent: {}
+[18.582626] (-) TimerEvent: {}
+[18.683062] (-) TimerEvent: {}
+[18.784033] (-) TimerEvent: {}
+[18.884456] (-) TimerEvent: {}
+[18.984907] (-) TimerEvent: {}
+[19.085382] (-) TimerEvent: {}
+[19.122172] (lane_length_pkg) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/diff_drive_controller.cpp.o\n'}
+[19.185557] (-) TimerEvent: {}
+[19.288146] (-) TimerEvent: {}
+[19.388575] (-) TimerEvent: {}
+[19.489025] (-) TimerEvent: {}
+[19.589486] (-) TimerEvent: {}
+[19.690523] (-) TimerEvent: {}
+[19.790952] (-) TimerEvent: {}
+[19.891413] (-) TimerEvent: {}
+[19.991843] (-) TimerEvent: {}
+[20.092313] (-) TimerEvent: {}
+[20.192728] (-) TimerEvent: {}
+[20.293200] (-) TimerEvent: {}
+[20.393655] (-) TimerEvent: {}
+[20.494104] (-) TimerEvent: {}
+[20.594565] (-) TimerEvent: {}
+[20.695005] (-) TimerEvent: {}
+[20.795460] (-) TimerEvent: {}
+[20.895884] (-) TimerEvent: {}
+[20.996334] (-) TimerEvent: {}
+[21.096794] (-) TimerEvent: {}
+[21.197300] (-) TimerEvent: {}
+[21.297722] (-) TimerEvent: {}
+[21.398154] (-) TimerEvent: {}
+[21.498597] (-) TimerEvent: {}
+[21.599066] (-) TimerEvent: {}
+[21.699529] (-) TimerEvent: {}
+[21.799995] (-) TimerEvent: {}
+[21.900433] (-) TimerEvent: {}
+[22.000846] (-) TimerEvent: {}
+[22.101331] (-) TimerEvent: {}
+[22.175935] (lane_length_pkg) StdoutLine: {'line': b'[ 53%] Linking CXX executable ld08_driver\n'}
+[22.201510] (-) TimerEvent: {}
+[22.301928] (-) TimerEvent: {}
+[22.402343] (-) TimerEvent: {}
+[22.428025] (lane_length_pkg) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/dynamixel_sdk_wrapper.cpp.o\n'}
+[22.502581] (-) TimerEvent: {}
+[22.575229] (lane_length_pkg) StdoutLine: {'line': b'[ 56%] Built target ld08_driver\n'}
+[22.603137] (-) TimerEvent: {}
+[22.608915] (lane_length_pkg) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/odometry.cpp.o\n'}
+[22.703329] (-) TimerEvent: {}
+[22.803745] (-) TimerEvent: {}
+[22.904142] (-) TimerEvent: {}
+[23.004599] (-) TimerEvent: {}
+[23.105016] (-) TimerEvent: {}
+[23.205461] (-) TimerEvent: {}
+[23.305873] (-) TimerEvent: {}
+[23.406288] (-) TimerEvent: {}
+[23.506733] (-) TimerEvent: {}
+[23.607180] (-) TimerEvent: {}
+[23.707618] (-) TimerEvent: {}
+[23.808069] (-) TimerEvent: {}
+[23.908558] (-) TimerEvent: {}
+[24.009030] (-) TimerEvent: {}
+[24.073940] (lane_length_pkg) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/turtlebot3.cpp.o\n'}
+[24.109447] (-) TimerEvent: {}
+[24.209872] (-) TimerEvent: {}
+[24.310285] (-) TimerEvent: {}
+[24.410731] (-) TimerEvent: {}
+[24.511177] (-) TimerEvent: {}
+[24.611631] (-) TimerEvent: {}
+[24.712067] (-) TimerEvent: {}
+[24.812683] (-) TimerEvent: {}
+[24.913097] (-) TimerEvent: {}
+[25.013543] (-) TimerEvent: {}
+[25.113992] (-) TimerEvent: {}
+[25.214441] (-) TimerEvent: {}
+[25.315019] (-) TimerEvent: {}
+[25.415470] (-) TimerEvent: {}
+[25.515899] (-) TimerEvent: {}
+[25.616361] (-) TimerEvent: {}
+[25.716821] (-) TimerEvent: {}
+[25.817308] (-) TimerEvent: {}
+[25.917731] (-) TimerEvent: {}
+[26.018147] (-) TimerEvent: {}
+[26.118591] (-) TimerEvent: {}
+[26.219016] (-) TimerEvent: {}
+[26.319445] (-) TimerEvent: {}
+[26.419897] (-) TimerEvent: {}
+[26.520346] (-) TimerEvent: {}
+[26.620820] (-) TimerEvent: {}
+[26.721283] (-) TimerEvent: {}
+[26.823353] (-) TimerEvent: {}
+[26.923789] (-) TimerEvent: {}
+[27.024262] (-) TimerEvent: {}
+[27.124711] (-) TimerEvent: {}
+[27.225142] (-) TimerEvent: {}
+[27.325637] (-) TimerEvent: {}
+[27.426082] (-) TimerEvent: {}
+[27.526531] (-) TimerEvent: {}
+[27.626980] (-) TimerEvent: {}
+[27.727453] (-) TimerEvent: {}
+[27.827921] (-) TimerEvent: {}
+[27.928368] (-) TimerEvent: {}
+[28.028822] (-) TimerEvent: {}
+[28.129306] (-) TimerEvent: {}
+[28.229739] (-) TimerEvent: {}
+[28.330166] (-) TimerEvent: {}
+[28.430550] (-) TimerEvent: {}
+[28.530998] (-) TimerEvent: {}
+[28.631452] (-) TimerEvent: {}
+[28.731847] (-) TimerEvent: {}
+[28.832292] (-) TimerEvent: {}
+[28.887358] (lane_length_pkg) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/sensors/battery_state.cpp.o\n'}
+[28.932484] (-) TimerEvent: {}
+[29.032912] (-) TimerEvent: {}
+[29.133339] (-) TimerEvent: {}
+[29.233758] (-) TimerEvent: {}
+[29.334183] (-) TimerEvent: {}
+[29.434618] (-) TimerEvent: {}
+[29.535035] (-) TimerEvent: {}
+[29.635441] (-) TimerEvent: {}
+[29.735864] (-) TimerEvent: {}
+[29.791431] (lane_length_pkg) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o\n'}
+[29.836055] (-) TimerEvent: {}
+[29.936473] (-) TimerEvent: {}
+[30.036911] (-) TimerEvent: {}
+[30.137385] (-) TimerEvent: {}
+[30.237787] (-) TimerEvent: {}
+[30.338206] (-) TimerEvent: {}
+[30.439995] (-) TimerEvent: {}
+[30.540476] (-) TimerEvent: {}
+[30.640961] (-) TimerEvent: {}
+[30.741411] (-) TimerEvent: {}
+[30.841930] (-) TimerEvent: {}
+[30.942370] (-) TimerEvent: {}
+[31.042828] (-) TimerEvent: {}
+[31.107584] (lane_length_pkg) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/sensors/imu.cpp.o\n'}
+[31.143053] (-) TimerEvent: {}
+[31.243521] (-) TimerEvent: {}
+[31.343979] (-) TimerEvent: {}
+[31.444412] (-) TimerEvent: {}
+[31.545731] (-) TimerEvent: {}
+[31.646125] (-) TimerEvent: {}
+[31.746579] (-) TimerEvent: {}
+[31.847007] (-) TimerEvent: {}
+[31.947416] (-) TimerEvent: {}
+[32.047829] (-) TimerEvent: {}
+[32.148290] (-) TimerEvent: {}
+[32.248722] (-) TimerEvent: {}
+[32.349168] (-) TimerEvent: {}
+[32.449604] (-) TimerEvent: {}
+[32.550024] (-) TimerEvent: {}
+[32.650429] (-) TimerEvent: {}
+[32.750865] (-) TimerEvent: {}
+[32.851321] (-) TimerEvent: {}
+[32.951749] (-) TimerEvent: {}
+[33.052201] (-) TimerEvent: {}
+[33.152623] (-) TimerEvent: {}
+[33.253038] (-) TimerEvent: {}
+[33.353482] (-) TimerEvent: {}
+[33.453920] (-) TimerEvent: {}
+[33.554340] (-) TimerEvent: {}
+[33.654754] (-) TimerEvent: {}
+[33.755168] (-) TimerEvent: {}
+[33.855578] (-) TimerEvent: {}
+[33.956001] (-) TimerEvent: {}
+[34.056406] (-) TimerEvent: {}
+[34.156847] (-) TimerEvent: {}
+[34.257306] (-) TimerEvent: {}
+[34.357717] (-) TimerEvent: {}
+[34.458149] (-) TimerEvent: {}
+[34.558591] (-) TimerEvent: {}
+[34.659047] (-) TimerEvent: {}
+[34.760160] (-) TimerEvent: {}
+[34.860629] (-) TimerEvent: {}
+[34.961108] (-) TimerEvent: {}
+[35.061582] (-) TimerEvent: {}
+[35.162029] (-) TimerEvent: {}
+[35.262451] (-) TimerEvent: {}
+[35.362892] (-) TimerEvent: {}
+[35.463343] (-) TimerEvent: {}
+[35.563788] (-) TimerEvent: {}
+[35.664206] (-) TimerEvent: {}
+[35.764635] (-) TimerEvent: {}
+[35.865076] (-) TimerEvent: {}
+[35.965516] (-) TimerEvent: {}
+[36.065941] (-) TimerEvent: {}
+[36.166375] (-) TimerEvent: {}
+[36.266816] (-) TimerEvent: {}
+[36.367243] (-) TimerEvent: {}
+[36.467697] (-) TimerEvent: {}
+[36.568168] (-) TimerEvent: {}
+[36.668616] (-) TimerEvent: {}
+[36.769041] (-) TimerEvent: {}
+[36.869503] (-) TimerEvent: {}
+[36.969934] (-) TimerEvent: {}
+[37.070362] (-) TimerEvent: {}
+[37.170786] (-) TimerEvent: {}
+[37.271235] (-) TimerEvent: {}
+[37.371683] (-) TimerEvent: {}
+[37.472157] (-) TimerEvent: {}
+[37.572603] (-) TimerEvent: {}
+[37.673047] (-) TimerEvent: {}
+[37.773506] (-) TimerEvent: {}
+[37.873928] (-) TimerEvent: {}
+[37.977592] (-) TimerEvent: {}
+[38.078005] (-) TimerEvent: {}
+[38.178515] (-) TimerEvent: {}
+[38.278939] (-) TimerEvent: {}
+[38.379343] (-) TimerEvent: {}
+[38.479781] (-) TimerEvent: {}
+[38.580237] (-) TimerEvent: {}
+[38.680663] (-) TimerEvent: {}
+[38.781122] (-) TimerEvent: {}
+[38.881580] (-) TimerEvent: {}
+[38.982056] (-) TimerEvent: {}
+[39.082492] (-) TimerEvent: {}
+[39.182912] (-) TimerEvent: {}
+[39.283339] (-) TimerEvent: {}
+[39.383785] (-) TimerEvent: {}
+[39.484259] (-) TimerEvent: {}
+[39.584727] (-) TimerEvent: {}
+[39.685159] (-) TimerEvent: {}
+[39.785589] (-) TimerEvent: {}
+[39.886022] (-) TimerEvent: {}
+[39.986456] (-) TimerEvent: {}
+[40.086931] (-) TimerEvent: {}
+[40.187363] (-) TimerEvent: {}
+[40.287813] (-) TimerEvent: {}
+[40.388272] (-) TimerEvent: {}
+[40.488742] (-) TimerEvent: {}
+[40.589181] (-) TimerEvent: {}
+[40.689609] (-) TimerEvent: {}
+[40.790058] (-) TimerEvent: {}
+[40.890508] (-) TimerEvent: {}
+[40.991553] (-) TimerEvent: {}
+[41.092022] (-) TimerEvent: {}
+[41.192490] (-) TimerEvent: {}
+[41.292952] (-) TimerEvent: {}
+[41.396956] (-) TimerEvent: {}
+[41.497413] (-) TimerEvent: {}
+[41.597842] (-) TimerEvent: {}
+[41.698291] (-) TimerEvent: {}
+[41.800562] (-) TimerEvent: {}
+[41.901003] (-) TimerEvent: {}
+[42.001379] (-) TimerEvent: {}
+[42.101824] (-) TimerEvent: {}
+[42.202922] (-) TimerEvent: {}
+[42.303336] (-) TimerEvent: {}
+[42.403772] (-) TimerEvent: {}
+[42.504237] (-) TimerEvent: {}
+[42.606472] (-) TimerEvent: {}
+[42.706915] (-) TimerEvent: {}
+[42.807341] (-) TimerEvent: {}
+[42.907788] (-) TimerEvent: {}
+[43.009871] (-) TimerEvent: {}
+[43.110468] (-) TimerEvent: {}
+[43.210903] (-) TimerEvent: {}
+[43.311367] (-) TimerEvent: {}
+[43.411802] (-) TimerEvent: {}
+[43.512258] (-) TimerEvent: {}
+[43.612714] (-) TimerEvent: {}
+[43.713152] (-) TimerEvent: {}
+[43.813571] (-) TimerEvent: {}
+[43.913994] (-) TimerEvent: {}
+[44.014425] (-) TimerEvent: {}
+[44.114908] (-) TimerEvent: {}
+[44.181289] (lane_length_pkg) StdoutLine: {'line': b'[ 75%] Linking CXX shared library libcoin_d4_driver_lib.so\n'}
+[44.215116] (-) TimerEvent: {}
+[44.315925] (-) TimerEvent: {}
+[44.416340] (-) TimerEvent: {}
+[44.516745] (-) TimerEvent: {}
+[44.585274] (lane_length_pkg) StdoutLine: {'line': b'[ 78%] Building CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/sensors/joint_state.cpp.o\n'}
+[44.616968] (-) TimerEvent: {}
+[44.717396] (-) TimerEvent: {}
+[44.732773] (lane_length_pkg) StdoutLine: {'line': b'[ 78%] Built target coin_d4_driver_lib\n'}
+[44.794159] (lane_length_pkg) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target single_coin_d4_node\n'}
+[44.817586] (-) TimerEvent: {}
+[44.840560] (lane_length_pkg) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/single_coin_d4_node.dir/drivers/coin_d4_driver/src/single_coin_d4_node.cpp.o\n'}
+[44.917764] (-) TimerEvent: {}
+[45.018180] (-) TimerEvent: {}
+[45.118591] (-) TimerEvent: {}
+[45.219003] (-) TimerEvent: {}
+[45.319442] (-) TimerEvent: {}
+[45.419875] (-) TimerEvent: {}
+[45.520290] (-) TimerEvent: {}
+[45.620710] (-) TimerEvent: {}
+[45.721148] (-) TimerEvent: {}
+[45.821603] (-) TimerEvent: {}
+[45.922044] (-) TimerEvent: {}
+[46.022473] (-) TimerEvent: {}
+[46.122872] (-) TimerEvent: {}
+[46.223292] (-) TimerEvent: {}
+[46.323747] (-) TimerEvent: {}
+[46.424197] (-) TimerEvent: {}
+[46.524669] (-) TimerEvent: {}
+[46.625074] (-) TimerEvent: {}
+[46.725516] (-) TimerEvent: {}
+[46.825928] (-) TimerEvent: {}
+[46.926346] (-) TimerEvent: {}
+[46.964212] (lane_length_pkg) StdoutLine: {'line': b'[ 84%] Building CXX object CMakeFiles/turtlebot3_control_lib.dir/src/control_cpp/sensors/sensor_state.cpp.o\n'}
+[47.026559] (-) TimerEvent: {}
+[47.126981] (-) TimerEvent: {}
+[47.228932] (-) TimerEvent: {}
+[47.329390] (-) TimerEvent: {}
+[47.429812] (-) TimerEvent: {}
+[47.530243] (-) TimerEvent: {}
+[47.630725] (-) TimerEvent: {}
+[47.731166] (-) TimerEvent: {}
+[47.831616] (-) TimerEvent: {}
+[47.932059] (-) TimerEvent: {}
+[48.032867] (-) TimerEvent: {}
+[48.133305] (-) TimerEvent: {}
+[48.233724] (-) TimerEvent: {}
+[48.334146] (-) TimerEvent: {}
+[48.434578] (-) TimerEvent: {}
+[48.535035] (-) TimerEvent: {}
+[48.635497] (-) TimerEvent: {}
+[48.735977] (-) TimerEvent: {}
+[48.836438] (-) TimerEvent: {}
+[48.936833] (-) TimerEvent: {}
+[49.037337] (-) TimerEvent: {}
+[49.137762] (-) TimerEvent: {}
+[49.238211] (-) TimerEvent: {}
+[49.338633] (-) TimerEvent: {}
+[49.439052] (-) TimerEvent: {}
+[49.539553] (-) TimerEvent: {}
+[49.640024] (-) TimerEvent: {}
+[49.740449] (-) TimerEvent: {}
+[49.840906] (-) TimerEvent: {}
+[49.941358] (-) TimerEvent: {}
+[50.041803] (-) TimerEvent: {}
+[50.143046] (-) TimerEvent: {}
+[50.243496] (-) TimerEvent: {}
+[50.343963] (-) TimerEvent: {}
+[50.444428] (-) TimerEvent: {}
+[50.544857] (-) TimerEvent: {}
+[50.645340] (-) TimerEvent: {}
+[50.745777] (-) TimerEvent: {}
+[50.846222] (-) TimerEvent: {}
+[50.946670] (-) TimerEvent: {}
+[51.047146] (-) TimerEvent: {}
+[51.147613] (-) TimerEvent: {}
+[51.248064] (-) TimerEvent: {}
+[51.348496] (-) TimerEvent: {}
+[51.448922] (-) TimerEvent: {}
+[51.549358] (-) TimerEvent: {}
+[51.649787] (-) TimerEvent: {}
+[51.750198] (-) TimerEvent: {}
+[51.850637] (-) TimerEvent: {}
+[51.951100] (-) TimerEvent: {}
+[52.051553] (-) TimerEvent: {}
+[52.151970] (-) TimerEvent: {}
+[52.252412] (-) TimerEvent: {}
+[52.352871] (-) TimerEvent: {}
+[52.453375] (-) TimerEvent: {}
+[52.553800] (-) TimerEvent: {}
+[52.654241] (-) TimerEvent: {}
+[52.754697] (-) TimerEvent: {}
+[52.855138] (-) TimerEvent: {}
+[52.955568] (-) TimerEvent: {}
+[53.056024] (-) TimerEvent: {}
+[53.156491] (-) TimerEvent: {}
+[53.256932] (-) TimerEvent: {}
+[53.357384] (-) TimerEvent: {}
+[53.457818] (-) TimerEvent: {}
+[53.465644] (lane_length_pkg) StdoutLine: {'line': b'[ 87%] Linking CXX executable single_coin_d4_node\n'}
+[53.558004] (-) TimerEvent: {}
+[53.658457] (-) TimerEvent: {}
+[53.758913] (-) TimerEvent: {}
+[53.805832] (lane_length_pkg) StdoutLine: {'line': b'[ 87%] Built target single_coin_d4_node\n'}
+[53.859103] (-) TimerEvent: {}
+[53.959782] (-) TimerEvent: {}
+[54.060259] (-) TimerEvent: {}
+[54.160721] (-) TimerEvent: {}
+[54.261149] (-) TimerEvent: {}
+[54.361622] (-) TimerEvent: {}
+[54.462049] (-) TimerEvent: {}
+[54.562471] (-) TimerEvent: {}
+[54.662908] (-) TimerEvent: {}
+[54.763339] (-) TimerEvent: {}
+[54.863762] (-) TimerEvent: {}
+[54.964184] (-) TimerEvent: {}
+[55.064610] (-) TimerEvent: {}
+[55.165027] (-) TimerEvent: {}
+[55.265464] (-) TimerEvent: {}
+[55.365864] (-) TimerEvent: {}
+[55.466289] (-) TimerEvent: {}
+[55.566700] (-) TimerEvent: {}
+[55.667115] (-) TimerEvent: {}
+[55.767526] (-) TimerEvent: {}
+[55.867937] (-) TimerEvent: {}
+[55.968329] (-) TimerEvent: {}
+[56.068753] (-) TimerEvent: {}
+[56.169185] (-) TimerEvent: {}
+[56.269649] (-) TimerEvent: {}
+[56.370085] (-) TimerEvent: {}
+[56.470513] (-) TimerEvent: {}
+[56.570952] (-) TimerEvent: {}
+[56.648256] (lane_length_pkg) StdoutLine: {'line': b'[ 90%] Linking CXX executable localization_slam\n'}
+[56.671151] (-) TimerEvent: {}
+[56.771605] (-) TimerEvent: {}
+[56.872050] (-) TimerEvent: {}
+[56.972504] (-) TimerEvent: {}
+[57.072943] (-) TimerEvent: {}
+[57.173410] (-) TimerEvent: {}
+[57.216430] (lane_length_pkg) StdoutLine: {'line': b'[ 90%] Built target localization_slam\n'}
+[57.273599] (-) TimerEvent: {}
+[57.374022] (-) TimerEvent: {}
+[57.474443] (-) TimerEvent: {}
+[57.574874] (-) TimerEvent: {}
+[57.675267] (-) TimerEvent: {}
+[57.775695] (-) TimerEvent: {}
+[57.876094] (-) TimerEvent: {}
+[57.976487] (-) TimerEvent: {}
+[58.076866] (-) TimerEvent: {}
+[58.177299] (-) TimerEvent: {}
+[58.277676] (-) TimerEvent: {}
+[58.378091] (-) TimerEvent: {}
+[58.478490] (-) TimerEvent: {}
+[58.578886] (-) TimerEvent: {}
+[58.679284] (-) TimerEvent: {}
+[58.779697] (-) TimerEvent: {}
+[58.880099] (-) TimerEvent: {}
+[58.980511] (-) TimerEvent: {}
+[59.080890] (-) TimerEvent: {}
+[59.181309] (-) TimerEvent: {}
+[59.281712] (-) TimerEvent: {}
+[59.382102] (-) TimerEvent: {}
+[59.482488] (-) TimerEvent: {}
+[59.582890] (-) TimerEvent: {}
+[59.683308] (-) TimerEvent: {}
+[59.783696] (-) TimerEvent: {}
+[59.884104] (-) TimerEvent: {}
+[59.984490] (-) TimerEvent: {}
+[60.084897] (-) TimerEvent: {}
+[60.185319] (-) TimerEvent: {}
+[60.285709] (-) TimerEvent: {}
+[60.386101] (-) TimerEvent: {}
+[60.486502] (-) TimerEvent: {}
+[60.586909] (-) TimerEvent: {}
+[60.687318] (-) TimerEvent: {}
+[60.787712] (-) TimerEvent: {}
+[60.888092] (-) TimerEvent: {}
+[60.988480] (-) TimerEvent: {}
+[61.088861] (-) TimerEvent: {}
+[61.189264] (-) TimerEvent: {}
+[61.289634] (-) TimerEvent: {}
+[61.390028] (-) TimerEvent: {}
+[61.490567] (-) TimerEvent: {}
+[61.590955] (-) TimerEvent: {}
+[61.691339] (-) TimerEvent: {}
+[61.791721] (-) TimerEvent: {}
+[61.892127] (-) TimerEvent: {}
+[61.992534] (-) TimerEvent: {}
+[62.092937] (-) TimerEvent: {}
+[62.193330] (-) TimerEvent: {}
+[62.293717] (-) TimerEvent: {}
+[62.394130] (-) TimerEvent: {}
+[62.494533] (-) TimerEvent: {}
+[62.594936] (-) TimerEvent: {}
+[62.695338] (-) TimerEvent: {}
+[62.795737] (-) TimerEvent: {}
+[62.896133] (-) TimerEvent: {}
+[62.996511] (-) TimerEvent: {}
+[63.096899] (-) TimerEvent: {}
+[63.197352] (-) TimerEvent: {}
+[63.297761] (-) TimerEvent: {}
+[63.398164] (-) TimerEvent: {}
+[63.498562] (-) TimerEvent: {}
+[63.598963] (-) TimerEvent: {}
+[63.699364] (-) TimerEvent: {}
+[63.799785] (-) TimerEvent: {}
+[63.900168] (-) TimerEvent: {}
+[64.000590] (-) TimerEvent: {}
+[64.101028] (-) TimerEvent: {}
+[64.201426] (-) TimerEvent: {}
+[64.301828] (-) TimerEvent: {}
+[64.402228] (-) TimerEvent: {}
+[64.502614] (-) TimerEvent: {}
+[64.603013] (-) TimerEvent: {}
+[64.703429] (-) TimerEvent: {}
+[64.803829] (-) TimerEvent: {}
+[64.904239] (-) TimerEvent: {}
+[65.004642] (-) TimerEvent: {}
+[65.105096] (-) TimerEvent: {}
+[65.205565] (-) TimerEvent: {}
+[65.306052] (-) TimerEvent: {}
+[65.406514] (-) TimerEvent: {}
+[65.507001] (-) TimerEvent: {}
+[65.607441] (-) TimerEvent: {}
+[65.707841] (-) TimerEvent: {}
+[65.808245] (-) TimerEvent: {}
+[65.908650] (-) TimerEvent: {}
+[66.009053] (-) TimerEvent: {}
+[66.109480] (-) TimerEvent: {}
+[66.209892] (-) TimerEvent: {}
+[66.310288] (-) TimerEvent: {}
+[66.410697] (-) TimerEvent: {}
+[66.511119] (-) TimerEvent: {}
+[66.611531] (-) TimerEvent: {}
+[66.711950] (-) TimerEvent: {}
+[66.812365] (-) TimerEvent: {}
+[66.912742] (-) TimerEvent: {}
+[67.013143] (-) TimerEvent: {}
+[67.113662] (-) TimerEvent: {}
+[67.214133] (-) TimerEvent: {}
+[67.314521] (-) TimerEvent: {}
+[67.414934] (-) TimerEvent: {}
+[67.515359] (-) TimerEvent: {}
+[67.615770] (-) TimerEvent: {}
+[67.716165] (-) TimerEvent: {}
+[67.816543] (-) TimerEvent: {}
+[67.916938] (-) TimerEvent: {}
+[68.017357] (-) TimerEvent: {}
+[68.117745] (-) TimerEvent: {}
+[68.218130] (-) TimerEvent: {}
+[68.318511] (-) TimerEvent: {}
+[68.419102] (-) TimerEvent: {}
+[68.519515] (-) TimerEvent: {}
+[68.619876] (-) TimerEvent: {}
+[68.720277] (-) TimerEvent: {}
+[68.820682] (-) TimerEvent: {}
+[68.921067] (-) TimerEvent: {}
+[69.021490] (-) TimerEvent: {}
+[69.122018] (-) TimerEvent: {}
+[69.222473] (-) TimerEvent: {}
+[69.322869] (-) TimerEvent: {}
+[69.423281] (-) TimerEvent: {}
+[69.523658] (-) TimerEvent: {}
+[69.624064] (-) TimerEvent: {}
+[69.724454] (-) TimerEvent: {}
+[69.824849] (-) TimerEvent: {}
+[69.925286] (-) TimerEvent: {}
+[70.025689] (-) TimerEvent: {}
+[70.126095] (-) TimerEvent: {}
+[70.226506] (-) TimerEvent: {}
+[70.326916] (-) TimerEvent: {}
+[70.427309] (-) TimerEvent: {}
+[70.527717] (-) TimerEvent: {}
+[70.628136] (-) TimerEvent: {}
+[70.728533] (-) TimerEvent: {}
+[70.828940] (-) TimerEvent: {}
+[70.929359] (-) TimerEvent: {}
+[71.029764] (-) TimerEvent: {}
+[71.130167] (-) TimerEvent: {}
+[71.230575] (-) TimerEvent: {}
+[71.330986] (-) TimerEvent: {}
+[71.431389] (-) TimerEvent: {}
+[71.531787] (-) TimerEvent: {}
+[71.632188] (-) TimerEvent: {}
+[71.732593] (-) TimerEvent: {}
+[71.833008] (-) TimerEvent: {}
+[71.933370] (-) TimerEvent: {}
+[72.033788] (-) TimerEvent: {}
+[72.134201] (-) TimerEvent: {}
+[72.234602] (-) TimerEvent: {}
+[72.334994] (-) TimerEvent: {}
+[72.435412] (-) TimerEvent: {}
+[72.535842] (-) TimerEvent: {}
+[72.636381] (-) TimerEvent: {}
+[72.736819] (-) TimerEvent: {}
+[72.837254] (-) TimerEvent: {}
+[72.937725] (-) TimerEvent: {}
+[73.038297] (-) TimerEvent: {}
+[73.138738] (-) TimerEvent: {}
+[73.239152] (-) TimerEvent: {}
+[73.339566] (-) TimerEvent: {}
+[73.440065] (-) TimerEvent: {}
+[73.540472] (-) TimerEvent: {}
+[73.640876] (-) TimerEvent: {}
+[73.741274] (-) TimerEvent: {}
+[73.841784] (-) TimerEvent: {}
+[73.942314] (-) TimerEvent: {}
+[74.042718] (-) TimerEvent: {}
+[74.143105] (-) TimerEvent: {}
+[74.243532] (-) TimerEvent: {}
+[74.343920] (-) TimerEvent: {}
+[74.444322] (-) TimerEvent: {}
+[74.544721] (-) TimerEvent: {}
+[74.645149] (-) TimerEvent: {}
+[74.745638] (-) TimerEvent: {}
+[74.846029] (-) TimerEvent: {}
+[74.946428] (-) TimerEvent: {}
+[75.046837] (-) TimerEvent: {}
+[75.147237] (-) TimerEvent: {}
+[75.247620] (-) TimerEvent: {}
+[75.348008] (-) TimerEvent: {}
+[75.448375] (-) TimerEvent: {}
+[75.548774] (-) TimerEvent: {}
+[75.649750] (-) TimerEvent: {}
+[75.750366] (-) TimerEvent: {}
+[75.850789] (-) TimerEvent: {}
+[75.951192] (-) TimerEvent: {}
+[76.051616] (-) TimerEvent: {}
+[76.152073] (-) TimerEvent: {}
+[76.252547] (-) TimerEvent: {}
+[76.353015] (-) TimerEvent: {}
+[76.453521] (-) TimerEvent: {}
+[76.553994] (-) TimerEvent: {}
+[76.633851] (lane_length_pkg) StdoutLine: {'line': b'[ 93%] Linking CXX static library libturtlebot3_control_lib.a\n'}
+[76.654166] (-) TimerEvent: {}
+[76.754619] (-) TimerEvent: {}
+[76.855079] (-) TimerEvent: {}
+[76.898358] (lane_length_pkg) StdoutLine: {'line': b'[ 93%] Built target turtlebot3_control_lib\n'}
+[76.931764] (lane_length_pkg) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target turtlebot3_ros\n'}
+[76.955223] (-) TimerEvent: {}
+[76.970986] (lane_length_pkg) StdoutLine: {'line': b'[ 96%] Building CXX object CMakeFiles/turtlebot3_ros.dir/src/control_cpp/node_main.cpp.o\n'}
+[77.055442] (-) TimerEvent: {}
+[77.155887] (-) TimerEvent: {}
+[77.256272] (-) TimerEvent: {}
+[77.356635] (-) TimerEvent: {}
+[77.457009] (-) TimerEvent: {}
+[77.557423] (-) TimerEvent: {}
+[77.657776] (-) TimerEvent: {}
+[77.758184] (-) TimerEvent: {}
+[77.858614] (-) TimerEvent: {}
+[77.959053] (-) TimerEvent: {}
+[78.059482] (-) TimerEvent: {}
+[78.159936] (-) TimerEvent: {}
+[78.260408] (-) TimerEvent: {}
+[78.360883] (-) TimerEvent: {}
+[78.461393] (-) TimerEvent: {}
+[78.561855] (-) TimerEvent: {}
+[78.662601] (-) TimerEvent: {}
+[78.763359] (-) TimerEvent: {}
+[78.863743] (-) TimerEvent: {}
+[78.964314] (-) TimerEvent: {}
+[79.064908] (-) TimerEvent: {}
+[79.165290] (-) TimerEvent: {}
+[79.265627] (-) TimerEvent: {}
+[79.366169] (-) TimerEvent: {}
+[79.466485] (-) TimerEvent: {}
+[79.566791] (-) TimerEvent: {}
+[79.667040] (-) TimerEvent: {}
+[79.767223] (-) TimerEvent: {}
+[79.867416] (-) TimerEvent: {}
+[79.967632] (-) TimerEvent: {}
+[80.067836] (-) TimerEvent: {}
+[80.168051] (-) TimerEvent: {}
+[80.268279] (-) TimerEvent: {}
+[80.368500] (-) TimerEvent: {}
+[80.468713] (-) TimerEvent: {}
+[80.568942] (-) TimerEvent: {}
+[80.669180] (-) TimerEvent: {}
+[80.769414] (-) TimerEvent: {}
+[80.869626] (-) TimerEvent: {}
+[80.969833] (-) TimerEvent: {}
+[81.070039] (-) TimerEvent: {}
+[81.170242] (-) TimerEvent: {}
+[81.270460] (-) TimerEvent: {}
+[81.370781] (-) TimerEvent: {}
+[81.471184] (-) TimerEvent: {}
+[81.571571] (-) TimerEvent: {}
+[81.671990] (-) TimerEvent: {}
+[81.772411] (-) TimerEvent: {}
+[81.872850] (-) TimerEvent: {}
+[81.973296] (-) TimerEvent: {}
+[82.073685] (-) TimerEvent: {}
+[82.174075] (-) TimerEvent: {}
+[82.274491] (-) TimerEvent: {}
+[82.374958] (-) TimerEvent: {}
+[82.475440] (-) TimerEvent: {}
+[82.576018] (-) TimerEvent: {}
+[82.676510] (-) TimerEvent: {}
+[82.776991] (-) TimerEvent: {}
+[82.877514] (-) TimerEvent: {}
+[82.977952] (-) TimerEvent: {}
+[83.078375] (-) TimerEvent: {}
+[83.178810] (-) TimerEvent: {}
+[83.279245] (-) TimerEvent: {}
+[83.379678] (-) TimerEvent: {}
+[83.480111] (-) TimerEvent: {}
+[83.580534] (-) TimerEvent: {}
+[83.680964] (-) TimerEvent: {}
+[83.781361] (-) TimerEvent: {}
+[83.881787] (-) TimerEvent: {}
+[83.982175] (-) TimerEvent: {}
+[84.082511] (-) TimerEvent: {}
+[84.182888] (-) TimerEvent: {}
+[84.283318] (-) TimerEvent: {}
+[84.383740] (-) TimerEvent: {}
+[84.484175] (-) TimerEvent: {}
+[84.584608] (-) TimerEvent: {}
+[84.685036] (-) TimerEvent: {}
+[84.785475] (-) TimerEvent: {}
+[84.885909] (-) TimerEvent: {}
+[84.986395] (-) TimerEvent: {}
+[85.086878] (-) TimerEvent: {}
+[85.187357] (-) TimerEvent: {}
+[85.287824] (-) TimerEvent: {}
+[85.388214] (-) TimerEvent: {}
+[85.488602] (-) TimerEvent: {}
+[85.589027] (-) TimerEvent: {}
+[85.689469] (-) TimerEvent: {}
+[85.789926] (-) TimerEvent: {}
+[85.868264] (lane_length_pkg) StdoutLine: {'line': b'[100%] Linking CXX executable turtlebot3_ros\n'}
+[85.890097] (-) TimerEvent: {}
+[85.990523] (-) TimerEvent: {}
+[86.091032] (-) TimerEvent: {}
+[86.191474] (-) TimerEvent: {}
+[86.291940] (-) TimerEvent: {}
+[86.392395] (-) TimerEvent: {}
+[86.492857] (-) TimerEvent: {}
+[86.593328] (-) TimerEvent: {}
+[86.693764] (-) TimerEvent: {}
+[86.721939] (lane_length_pkg) StdoutLine: {'line': b'[100%] Built target turtlebot3_ros\n'}
+[86.751534] (lane_length_pkg) CommandEnded: {'returncode': 0}
+[86.755582] (lane_length_pkg) JobProgress: {'identifier': 'lane_length_pkg', 'progress': 'install'}
+[86.775133] (lane_length_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alexlee/fsd_ws/build/lane_length_pkg'], 'cwd': '/home/alexlee/fsd_ws/build/lane_length_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('USER', 'alexlee'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alexlee/fsd_ws/install/lane_length_pkg/lib:/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk/lib:/home/alexlee/turtlebot3_ws/install/coin_d4_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alexlee'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2089'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e2716d19225fbdfe22924ae76a249845'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/alexlee/fsd_ws/install:/home/alexlee/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alexlee'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alexlee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alexlee/.local/bin:/home/alexlee/.codex/tmp/arg0/codex-arg0sulTvN:/home/alexlee/.local/bin:/opt/ros/humble/bin:/home/alexlee/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alexlee-desktop:@/tmp/.ICE-unix/2089,unix/alexlee-desktop:/tmp/.ICE-unix/2089'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0bfa4273_a0e7_4f11_8d91_8d2cc081ee4e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alexlee/turtlebot3_ws/install/turtlebot3:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_bringup:/home/alexlee/turtlebot3_ws/install/turtlebot3_node:/home/alexlee/turtlebot3_ws/install/turtlebot3_navigation2:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs:/home/alexlee/turtlebot3_ws/install/turtlebot3_description:/home/alexlee/turtlebot3_ws/install/turtlebot3_cartographer:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_examples:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk:/home/alexlee/turtlebot3_ws/install/coin_d4_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e9f59-d349-7db2-be93-49e49d8b9c8f'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alexlee/fsd_ws/build/lane_length_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e2716d19225fbdfe22924ae76a249845'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/alexlee/turtlebot3_ws/build/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/alexlee/turtlebot3_ws/build/turtlebot3_example:/home/alexlee/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alexlee/fsd_ws/install/lane_length_pkg:/home/alexlee/turtlebot3_ws/install/turtlebot3:/home/alexlee/turtlebot3_ws/install/turtlebot3_bringup:/home/alexlee/turtlebot3_ws/install/turtlebot3_node:/home/alexlee/turtlebot3_ws/install/turtlebot3_navigation2:/home/alexlee/turtlebot3_ws/install/turtlebot3_msgs:/home/alexlee/turtlebot3_ws/install/turtlebot3_description:/home/alexlee/turtlebot3_ws/install/turtlebot3_cartographer:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_examples:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/alexlee/turtlebot3_ws/install/dynamixel_sdk:/home/alexlee/turtlebot3_ws/install/coin_d4_driver:/home/alexlee/turtlebot3_ws/install/turtlebot3_teleop:/home/alexlee/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[86.793342] (lane_length_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[86.793858] (-) TimerEvent: {}
+[86.794823] (lane_length_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[86.796032] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/pythonpath.sh\n'}
+[86.796505] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/pythonpath.dsv\n'}
+[86.797618] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[86.798095] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[86.798480] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[86.798852] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[86.801273] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/__init__.py\n'}
+[86.820908] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/behavior_plan_node.py\n'}
+[86.840223] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/camera_driver.py\n'}
+[86.859186] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/cmd_mux_node.py\n'}
+[86.878054] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/cooperation.py\n'}
+[86.894061] (-) TimerEvent: {}
+[86.898545] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/deadlock.py\n'}
+[86.918264] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/drive_mode_node.py\n'}
+[86.937123] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_decision_node.py\n'}
+[86.956368] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_detection_node.py\n'}
+[86.975930] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_follow_control_node.py\n'}
+[86.994390] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_follow_eval_node.py\n'}
+[86.994726] (-) TimerEvent: {}
+[87.013312] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_integration_node.py\n'}
+[87.031733] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/lane_viewer_node.py\n'}
+[87.053435] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_behavior.py\n'}
+[87.071803] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_io.py\n'}
+[87.090053] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/led_signal.py\n'}
+[87.094840] (-) TimerEvent: {}
+[87.109185] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/object_detect.py\n'}
+[87.128170] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/path_track_node.py\n'}
+[87.148368] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/reverse_astar_planner_node.py\n'}
+[87.166965] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/safety_filter_node.py\n'}
+[87.186717] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/scene_fusion_node.py\n'}
+[87.194986] (-) TimerEvent: {}
+[87.205435] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/situation_fusion.py\n'}
+[87.224133] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/space_memory.py\n'}
+[87.243160] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg/topic_watchdog.py\n'}
+[87.261603] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/detection_node\n'}
+[87.262659] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/integration_node\n'}
+[87.263248] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/control_node\n'}
+[87.263726] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/decision_node\n'}
+[87.264240] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/viewer_node\n'}
+[87.264667] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_detection_node\n'}
+[87.264996] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_integration_node\n'}
+[87.265602] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_decision_node\n'}
+[87.265972] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_follow_control_node\n'}
+[87.266561] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_viewer_node\n'}
+[87.267337] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/scene_fusion_node\n'}
+[87.267956] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/drive_mode_node\n'}
+[87.268529] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/behavior_plan_node\n'}
+[87.268965] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/reverse_astar_planner_node\n'}
+[87.269381] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/path_track_node\n'}
+[87.269782] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/lane_follow_eval\n'}
+[87.270106] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/cmd_mux_node\n'}
+[87.270583] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/safety_filter_node\n'}
+[87.271089] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/camera_driver\n'}
+[87.271570] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/object_detect\n'}
+[87.272057] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/led_signal\n'}
+[87.272534] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/space_memory\n'}
+[87.273028] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/situation_fusion\n'}
+[87.273534] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/deadlock\n'}
+[87.273849] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/cooperation\n'}
+[87.274293] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/topic_watchdog\n'}
+[87.274685] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/led_behavior\n'}
+[87.275236] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/led_io\n'}
+[87.276250] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/localization_slam\n'}
+[87.276614] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/turtlebot3_ros\n'}
+[87.276983] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/ld08_driver\n'}
+[87.277471] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/lane_length_pkg/single_coin_d4_node\n'}
+[87.278209] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/libturtlebot3_control_lib.a\n'}
+[87.278587] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/lib/libcoin_d4_driver_lib.so\n'}
+[87.279608] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/H.npy\n'}
+[87.279895] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/Hinv.npy\n'}
+[87.280332] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/Screenshot from 2026-06-06 15-13-43.png\n'}
+[87.280749] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/Screenshot from 2026-06-06 15-24-55.png\n'}
+[87.281150] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/Screenshot from 2026-06-07 01-25-02.png\n'}
+[87.281637] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/default_cam.yaml\n'}
+[87.282026] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/fisheye.yaml\n'}
+[87.282241] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/config/image.png\n'}
+[87.283187] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/launch/__pycache__/lane_pipeline.launch.cpython-310.pyc\n'}
+[87.283513] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/launch/lane_pipeline.launch.py\n'}
+[87.285382] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases/burger_base.stl\n'}
+[87.285774] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases/waffle_base.stl\n'}
+[87.286154] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/bases/waffle_pi_base.stl\n'}
+[87.286742] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/astra.dae\n'}
+[87.287147] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/astra.jpg\n'}
+[87.287508] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/lds.stl\n'}
+[87.287942] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/r200.dae\n'}
+[87.288403] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/sensors/r200.jpg\n'}
+[87.289092] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/wheels/left_tire.stl\n'}
+[87.289897] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/meshes/wheels/right_tire.stl\n'}
+[87.290218] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/rviz/model.rviz\n'}
+[87.290843] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf/common_properties.urdf\n'}
+[87.291097] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf/turtlebot3_burger.urdf\n'}
+[87.291695] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf/turtlebot3_waffle.urdf\n'}
+[87.292210] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/description/urdf/turtlebot3_waffle_pi.urdf\n'}
+[87.293642] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/param/burger.yaml\n'}
+[87.294265] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/param/waffle.yaml\n'}
+[87.294489] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/param/waffle_pi.yaml\n'}
+[87.294784] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/rviz/lane_pipeline.rviz\n'}
+[87.295036] (-) TimerEvent: {}
+[87.295839] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/drivers/ld08_driver/launch/ld08.launch.py\n'}
+[87.297410] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/drivers/coin_d4_driver/launch/single_lidar_node.launch.py\n'}
+[87.298587] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/drivers/coin_d4_driver/params/single_lidar_node.yaml\n'}
+[87.299785] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/control_table.hpp\n'}
+[87.300310] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices/devices.hpp\n'}
+[87.300856] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices/motor_power.hpp\n'}
+[87.301543] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices/reset.hpp\n'}
+[87.302100] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/devices/sound.hpp\n'}
+[87.302649] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/diff_drive_controller.hpp\n'}
+[87.302999] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/dynamixel_sdk_wrapper.hpp\n'}
+[87.303320] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/odometry.hpp\n'}
+[87.303771] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/battery_state.hpp\n'}
+[87.304091] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/imu.hpp\n'}
+[87.304408] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/joint_state.hpp\n'}
+[87.304830] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/sensor_state.hpp\n'}
+[87.305311] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/sensors/sensors.hpp\n'}
+[87.305713] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/turtlebot3.hpp\n'}
+[87.306096] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/twist_publisher.hpp\n'}
+[87.306485] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/turtlebot3_node/twist_subscriber.hpp\n'}
+[87.307664] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/coin_d4_base_handler.hpp\n'}
+[87.308023] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/coin_d4_lifecycle_handler.hpp\n'}
+[87.308376] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/coin_d4_node_handler.hpp\n'}
+[87.308824] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/handling_info.hpp\n'}
+[87.309175] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/lidar_data_processor.hpp\n'}
+[87.309635] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/lidar_information.hpp\n'}
+[87.310085] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/locker.hpp\n'}
+[87.310528] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/mtime.hpp\n'}
+[87.310957] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/serial_port.hpp\n'}
+[87.311375] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/lidar_sdk/timer.hpp\n'}
+[87.311820] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/coin_d4_driver/single_coin_d4_node.hpp\n'}
+[87.312587] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/cmd_interface_linux.hpp\n'}
+[87.312928] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/lipkg.hpp\n'}
+[87.313262] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/pointdata.hpp\n'}
+[87.313637] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/slbf.hpp\n'}
+[87.314046] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/include/transform.hpp\n'}
+[87.315395] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/library_path.sh\n'}
+[87.315935] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/library_path.dsv\n'}
+[87.316920] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/ament_index/resource_index/package_run_dependencies/lane_length_pkg\n'}
+[87.317614] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/ament_index/resource_index/parent_prefix_path/lane_length_pkg\n'}
+[87.318637] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/ament_prefix_path.sh\n'}
+[87.319150] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/ament_prefix_path.dsv\n'}
+[87.319681] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/path.sh\n'}
+[87.320212] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/environment/path.dsv\n'}
+[87.320768] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/local_setup.bash\n'}
+[87.321305] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/local_setup.sh\n'}
+[87.322310] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/local_setup.zsh\n'}
+[87.322640] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/local_setup.dsv\n'}
+[87.322893] (lane_length_pkg) StdoutLine: {'line': b'-- Symlinking: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/package.dsv\n'}
+[87.343339] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/ament_index/resource_index/packages/lane_length_pkg\n'}
+[87.343970] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[87.344711] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[87.345503] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[87.346178] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/lane_length_pkgConfig.cmake\n'}
+[87.346605] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/cmake/lane_length_pkgConfig-version.cmake\n'}
+[87.346959] (lane_length_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexlee/fsd_ws/install/lane_length_pkg/share/lane_length_pkg/package.xml\n'}
+[87.395236] (-) TimerEvent: {}
+[87.442466] (lane_length_pkg) StdoutLine: {'line': b"Listing '/home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg'...\n"}
+[87.459661] (lane_length_pkg) CommandEnded: {'returncode': 0}
+[87.495587] (-) TimerEvent: {}
+[87.529139] (lane_length_pkg) JobEnded: {'identifier': 'lane_length_pkg', 'rc': 0}
+[87.531327] (-) EventReactorShutdown: {}

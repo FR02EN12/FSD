@@ -1,0 +1,12 @@
+/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp: In member function ‘result_t LidarDataProcessor::wait_package(node_info*, uint32_t)’:
+/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp:371:36: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  371 |         package_buffer[recv_pos++] = current_byte;
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+In file included from /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/include/coin_d4_driver/lidar_sdk/lidar_data_processor.hpp:22,
+                 from /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp:23:
+/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/include/coin_d4_driver/lidar_sdk/lidar_information.hpp:154:12: note: at offset 9 into destination object ‘node_packages::package_Head’ of size 2
+  154 |   uint16_t package_Head;
+      |            ^~~~~~~~~~~~
+/home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/include/coin_d4_driver/lidar_sdk/lidar_information.hpp:142:12: note: at offset 9 into destination object ‘node_package::package_Head’ of size 2
+  142 |   uint16_t package_Head;
+      |            ^~~~~~~~~~~~

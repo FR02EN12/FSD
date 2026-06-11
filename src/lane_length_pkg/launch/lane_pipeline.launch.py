@@ -312,7 +312,7 @@ def generate_launch_description():
             output='screen',
             condition=IfCondition(use_planning_tail),
             parameters=[{
-                'yield_accept_wait_sec': 3.0,
+                'yield_accept_wait_sec': 25.0,
                 'blocked_reverse_delay_sec': 3.0,
                 'yield_wait_clear_sec': 3.0,
                 'led_negotiation_mask': '11111',
@@ -320,8 +320,6 @@ def generate_launch_description():
                 'led_negotiation_timeout_sec': 1.0,
                 'led_negotiation_hold_sec': 3.0,
                 'negotiation_hold_sec': 25.0,
-                'right_offset_pass_min_sec': 1.5,
-                'right_offset_pass_timeout_sec': 8.0,
             }],
         ),
         Node(

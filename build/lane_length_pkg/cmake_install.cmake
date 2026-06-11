@@ -1,8 +1,8 @@
-# Install script for directory: /home/jhp/fsd_ws/src/lane_length_pkg
+# Install script for directory: /home/alexlee/fsd_ws/src/lane_length_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jhp/fsd_ws/install/lane_length_pkg")
+  set(CMAKE_INSTALL_PREFIX "/home/alexlee/fsd_ws/install/lane_length_pkg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/jhp/fsd_ws/build/lane_length_pkg/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/alexlee/fsd_ws/build/lane_length_pkg/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/jhp/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg"
+        "/home/alexlee/fsd_ws/install/lane_length_pkg/local/lib/python3.10/dist-packages/lane_length_pkg"
       )
 endif()
 
@@ -62,5 +62,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jhp/fsd_ws/build/lane_length_pkg/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alexlee/fsd_ws/build/lane_length_pkg/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

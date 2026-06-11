@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jhp/fsd_ws/src/lane_length_pkg
+CMAKE_SOURCE_DIR = /home/alexlee/fsd_ws/src/lane_length_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jhp/fsd_ws/build/lane_length_pkg
+CMAKE_BINARY_DIR = /home/alexlee/fsd_ws/build/lane_length_pkg
 
 # Include any dependencies generated for this target.
 include CMakeFiles/coin_d4_driver_lib.dir/depend.make
@@ -70,102 +70,102 @@ include CMakeFiles/coin_d4_driver_lib.dir/progress.make
 include CMakeFiles/coin_d4_driver_lib.dir/flags.make
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/flags.make
-CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o: /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp
+CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o: /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhp/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o -c /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexlee/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.o -c /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.i
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/lidar_data_processor.cpp.s
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/flags.make
-CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o: /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp
+CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o: /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhp/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o -c /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexlee/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.o -c /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.i
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/mtime.cpp.s
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/flags.make
-CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o: /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp
+CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o: /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhp/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o -c /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexlee/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.o -c /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.i
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/serial_port.cpp.s
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/flags.make
-CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o: /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp
+CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o: /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhp/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o -c /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexlee/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.o -c /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.i
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/lidar_sdk/timer.cpp.s
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/flags.make
-CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o: /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp
+CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o: /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhp/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o -c /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexlee/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.o -c /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.i
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_base_handler.cpp.s
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/flags.make
-CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o: /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp
+CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o: /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhp/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o -c /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexlee/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.o -c /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.i
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_lifecycle_handler.cpp.s
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/flags.make
-CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o: /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp
+CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o: /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o: CMakeFiles/coin_d4_driver_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhp/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o -c /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexlee/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o -MF CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o.d -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.o -c /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp > CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.i
 
 CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhp/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexlee/fsd_ws/src/lane_length_pkg/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp -o CMakeFiles/coin_d4_driver_lib.dir/drivers/coin_d4_driver/src/coin_d4_node_handler.cpp.s
 
 # Object files for target coin_d4_driver_lib
 coin_d4_driver_lib_OBJECTS = \
@@ -277,7 +277,7 @@ libcoin_d4_driver_lib.so: /opt/ros/humble/lib/librcpputils.so
 libcoin_d4_driver_lib.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcoin_d4_driver_lib.so: /opt/ros/humble/lib/librcutils.so
 libcoin_d4_driver_lib.so: CMakeFiles/coin_d4_driver_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jhp/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libcoin_d4_driver_lib.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alexlee/fsd_ws/build/lane_length_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libcoin_d4_driver_lib.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/coin_d4_driver_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -289,6 +289,6 @@ CMakeFiles/coin_d4_driver_lib.dir/clean:
 .PHONY : CMakeFiles/coin_d4_driver_lib.dir/clean
 
 CMakeFiles/coin_d4_driver_lib.dir/depend:
-	cd /home/jhp/fsd_ws/build/lane_length_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jhp/fsd_ws/src/lane_length_pkg /home/jhp/fsd_ws/src/lane_length_pkg /home/jhp/fsd_ws/build/lane_length_pkg /home/jhp/fsd_ws/build/lane_length_pkg /home/jhp/fsd_ws/build/lane_length_pkg/CMakeFiles/coin_d4_driver_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alexlee/fsd_ws/build/lane_length_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alexlee/fsd_ws/src/lane_length_pkg /home/alexlee/fsd_ws/src/lane_length_pkg /home/alexlee/fsd_ws/build/lane_length_pkg /home/alexlee/fsd_ws/build/lane_length_pkg /home/alexlee/fsd_ws/build/lane_length_pkg/CMakeFiles/coin_d4_driver_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/coin_d4_driver_lib.dir/depend
 
